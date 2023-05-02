@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<game> 
+    <info id="GenshinImpact">
+        <title>Genshin Impact.GFM - Game Favour Market</title>
+        <video>https://youtu.be/HtiJkMsNtHg</video>
+        <nameGame>Genshin Impact</nameGame> 
+        <CostGame>Бесплатно</CostGame> 
+        <infoJanre>Открытый мир, Приключение, Ролевая, Фэнтези</infoJanre> 
+        <infoDiff>ММО
+                        Многопользовательская
+                        Кросс-платформенные</infoDiff>
+        <description>
+            ✧ Genshin Impact - игра в жанре Action-adventure с открытым миром и элементами RPG, она переносит игрока в живописный мир Тейвата. Игрок выступает в роли загадочного путешественника, который отправляется на поиски пропавшего близнеца, по пути открывая тайны материка. В будущем вас будут ждать новые города, истории, персонажи и сезонные события. ✧ Игра поддерживается на PC, PS4/5, ANDROID, iOS.
+        </description>
+        <info_hardware1>ОС 64-разрядная версия Windows 7 SP1, 64-разрядная версия Windows 8.1 или 64-разрядная версия Windows 10 (сборки Windows 10 для разработчиков в настоящее время не поддерживаются)</info_hardware1>
+        <info_hardware2>Intel Core i5 или эквивалентный</info_hardware2>
+        <info_hardware3>8 ГБ</info_hardware3>
+        <info_hardware4>30 ГБ</info_hardware4>
+        <info_hardware5>DirectX 11</info_hardware5>
+        <info_hardware6>NVIDIA® GeForce® GT 1030 или лучше</info_hardware6>
+        <info_develop1>COGNOSPHERE PTE. LTD.</info_develop1>
+        <info_develop2>COGNOSPHERE PTE. LTD.</info_develop2>
+        <info_develop3>15 марта 2023</info_develop3>
+        <info_develop4>9 июня 21</info_develop4>
+        <info_develop5>Windows</info_develop5>
+        <link>https://genshin.hoyoverse.com/</link>
+        <vk>https://vk.com/genshinimpact</vk>  
+        <twitter>https://twitter.com/GenshinImpact</twitter>
+        <telegram>https://discord.gg/genshinimpact</telegram>
+        <instagram>https://www.instagram.com/genshinimpact/</instagram>
+        <github>https://www.reddit.com/r/Genshin_Impact/</github>
+        
+        <pict1>../../own_pictures/genshinImpact1.jpg</pict1>
+        <pict2>../../own_pictures/genshinImpact2.jpg</pict2>
+        <pict3>../../own_pictures/genshinImpact3.jpg</pict3>
+        <pict4>../../own_pictures/genshinImpact4.jpg</pict4>
+       
+    </info>
+    <info id="GoW:Ragnarec">
+        <title>God Of War.GFM - Game Favour Market</title>
+        <video>https://youtu.be/V0aZ-mTNKo8</video>
+        <nameGame>God Of War</nameGame> 
+        <CostGame>49.99$</CostGame> 
+        <infoJanre>Ролевая, приключения, экшен</infoJanre> 
+        <infoDiff>Облачные сохранения
+                    Одиночная
+                    Соревновательная</infoDiff>
+        <description>
+            Отомстив богам Олимпа, Кратос поселился в царстве скандинавских божеств и чудовищ. В этом суровом беспощадном мире он должен не только самостоятельно бороться за выживание... но и научить этому сына.
+        </description>
+        <info_hardware1>Windows 10 (64-разрядная)</info_hardware1>
+        <info_hardware2>Intel i5-2500k (четырёхъядерный, 3,3 ГГц) или AMD Ryzen 3 1200 (четырёхъядерный, 3,1 ГГц)</info_hardware2>
+        <info_hardware3>8 ГБ (DDR)</info_hardware3>
+        <info_hardware4>70 ГБ (рекомендуется SSD)</info_hardware4>
+        <info_hardware5>DirectX 11 (функции уровня 11_1)</info_hardware5>
+        <info_hardware6>NVIDIA GTX 960 (4 ГБ) или AMD R9 290X (4 ГБ)</info_hardware6>
+        <info_develop1>Santa Monica Studio</info_develop1>
+        <info_develop2>PlayStation PC LLC</info_develop2>
+        <info_develop3>14 марта 2023</info_develop3>
+        <info_develop4>14 января 2022</info_develop4>
+        <info_develop5>Windows</info_develop5>
+        <link></link>
+        <vk></vk>  
+        <twitter></twitter>
+        <telegram></telegram>
+        <instagram></instagram>
+        <github></github>
+        
+        <pict1>../../own_pictures/godOfWar1.jpg</pict1>
+        <pict2>../../own_pictures/godOfWar2.jpg</pict2>
+        <pict3>../../own_pictures/godOfWar3.jpg</pict3>
+        <pict4>../../own_pictures/godOfWar4.jpg</pict4>
+       
+    </info>
+    <info id="Overcooked">
+        <title>Overcooked.GFM - Game Favour Market</title>
+        <video>https://youtu.be/0ZK7veYPEJQ</video>
+        <nameGame>Overcooked</nameGame> 
+        <CostGame>2.99$</CostGame> 
+        <infoJanre>Инди, казуальные игры, экшен</infoJanre> 
+        <infoDiff>Контроллер
+                        Многопользовательская
+                        Кооператив
+                        Поддержка геймпада
+                        Есть достижения
+                        Облачные сохранения</infoDiff>
+        <description>
+            Надевайте солнечные очки, собирайте своих поваров и разжигайте мангалы... ПОРА ИДТИ НА ПЛЯЖ!
+            Больше рецептов, больше поваров, больше кухонь! Вы отлично повеселитесь, готовя шашлыки и смузи с нашими новыми друзьями: экзотическим поваром-попугаем и яростным поваром с острова.
+            Соревнуйтесь с другими игроками на двух кипящих страстями уровнях или соберите команду, чтобы вместе противостоять голодным массам. Вас ждут 12 ядреных уровней игры, так вооружайтесь же верным водяным пистолетом и мойте с его помощью посуду или поливайте своих товарищей, чтобы создать максимум хаоса! Проще говоря, делайте всё, что вашей душе угодно.
+        </description>
+        <info_hardware1>Windows 7 (64-разрядная) или более поздняя (64-разрядная) версия ОС Windows</info_hardware1>
+        <info_hardware2> Intel i3-2100 / AMD A8-5600k</info_hardware2>
+        <info_hardware3>4 ГБ</info_hardware3>
+        <info_hardware4>3 ГБ</info_hardware4>
+        <info_hardware5>DirectX 11</info_hardware5>
+        <info_hardware6>NVIDIA  GeForce GTX 630 / Radeon HD 6570</info_hardware6>
+        <info_develop1>Ghost Town Games Ltd., Team17 Digital Ltd</info_develop1>
+        <info_develop2>Team17 Digital Ltd</info_develop2>
+        <info_develop3>13 марта 2023</info_develop3>
+        <info_develop4>3 октября 2018</info_develop4>
+        <info_develop5>Windows</info_develop5>
+        <link>https://ghosttowngames.com/overcooked/</link>
+        <vk>https://www.facebook.com/overcookedgame</vk>  
+        <twitter>https://twitter.com/Overcookedgame</twitter>
+        <telegram>https://www.facebook.com/overcookedgame</telegram>
+        <instagram>https://www.facebook.com/overcookedgame</instagram>
+        <github>https://www.facebook.com/overcookedgame</github>
+        
+        <pict1>../../own_pictures/overcooked1.jpg</pict1>
+        <pict2>../../own_pictures/overcooked2.jpg</pict2>
+        <pict3>../../own_pictures/overcooked3.jpg</pict3>
+        <pict4>../../own_pictures/overcooked4.jpg</pict4>
+       
+    </info>
+    <info id="DyingLight2">
+        <title>Dying Light 2.GFM - Game Favour Market</title>
+        <video>https://youtu.be/2MD4gTitmzw</video>
+        <nameGame>Dying Light 2</nameGame> 
+        <CostGame>49.99$</CostGame> 
+        <infoJanre>Ролевые игры, приключенческие игры, экшен</infoJanre> 
+        <infoDiff>Облачные сохранения
+                        Для одного игрока
+                        Кооператив
+                        Поддержка геймпада
+                        Remote play на телевизоре
+                        Есть достижения</infoDiff>
+        <description>
+            Dying Light 2 Stay Human является игрой в жанре Action/RPG с видом от первого лица. Действие игры происходит в открытом мире, площадь которого примерно в 4 раза больше площади всех локаций в первой Dying Light. Игровой мир состоит из 7 различных районов, но, в отличие от прошлой части, не разделен на несколько отдельных локаций. Игровой мир динамически изменяется в зависимости от принятых игроком решений. Как и в прошлой части, для перемещения по городу игрок может использовать паркур, а также наземные транспортные средства, ранее дебютировавшие в дополнении The Following для первой части.
+            В отличие от игры 2015 года, в Dying Light 2 Stay Human отсутствует огнестрельное оружие. Игрок может использовать различные виды оружия ближнего боя, а также приспособления, такие как крюк-кошка из первой части. Как и раньше, игроку противостоят различные виды противников: как люди, так и зомби.
+            В игре присутствует кооперативный режим. Согласно заверениям разработчиков, из-за нелинейности сюжета один из игроков должен служить хостом — гости будут исследовать открытый мир в той вариации, которая существует у хозяина, и некоторое оружие и инструменты, открывающиеся в другой сюжетной ветке, будут недоступны.
+        </description>
+        <info_hardware1>64-разрядные процессор и операционная система</info_hardware1>
+        <info_hardware2>Intel Core i3-9100 / AMD Ryzen 3 2300X</info_hardware2>
+        <info_hardware3>8 ГБ</info_hardware3>
+        <info_hardware4>60 ГБ</info_hardware4>
+        <info_hardware5>DirectX 11</info_hardware5>
+        <info_hardware6>NVIDIA GeForce GTX 1050 Ti / AMD Radeon™ RX 560 (4GB VRAM)</info_hardware6>
+        <info_develop1>Techland</info_develop1>
+        <info_develop2>Techland</info_develop2>
+        <info_develop3>14 марта 2023</info_develop3>
+        <info_develop4>13 декабря 2022</info_develop4>
+        <info_develop5>Windows</info_develop5>
+        <link>https://dyinglightgame.com/?utm_source=Steam&amp;utm_medium=Link&amp;utm_campaign=Dying_Light_2</link>
+        <vk>https://vk.com/dyinglightgame</vk>  
+        <twitter>https://twitter.com/DyingLightGame</twitter>
+        <telegram>https://www.facebook.com/DyingLightGame/</telegram>
+        <instagram>https://www.instagram.com/accounts/login/?next=/dyinglightgame/</instagram>
+        <github>https://discord.com/invite/dyinglight</github>
+        
+        <pict1>../../own_pictures/dyingLight21.jpg</pict1>
+        <pict2>../../own_pictures/dyingLight22.jpg</pict2>
+        <pict3>../../own_pictures/dyingLight23.jpg</pict3>
+        <pict4>../../own_pictures/dyingLight24.jpg</pict4>
+       
+    </info>
+    <info id="DeadByDaylight">
+        <title>Dead By Daylight.GFM - Game Favour Market</title>
+        <video>https://youtu.be/JGhIXLO3ul8</video>
+        <nameGame>Dead By Daylight</nameGame> 
+        <CostGame>19.99$</CostGame> 
+        <infoJanre>Хоррор, экшен</infoJanre> 
+        <infoDiff>Облачные сохранения
+                        Многопользовательская
+                        Кооператив
+                        Есть достижения</infoDiff>
+        <description>
+            Две командировки во Вьетнам, куча медалей, колено, напичканное шрапнелью, и почетная отставка — вот что понадобилось Уильяму «Биллу» Овербеку, чтобы выйти из боя. Ему это очень не понравилось. Десятилетиями Билл бесцельно скитался и брался за самую нехитрую работу, пока однажды не оказался на столе у хирурга, а очнувшись, обнаружил, что какая-то эпидемия превращает людей в безмозглые машины для убийства. Странствуя по деревням-призракам и темным лесам, он нашел других выживших, и вместе они спаслись бегством от полчищ инфицированных. В итоге Билл пожертвовал собой ради их безопасности. Его тело так никогда и не нашли. Билла оставили умирать... и ему предстоит сразиться с новым врагом.
+        </description>
+        <info_hardware1>64-bit Operating Systems (Windows 10)</info_hardware1>
+        <info_hardware2>Intel Core i3-4170 or AMD FX-8120</info_hardware2>
+        <info_hardware3>8 ГБ</info_hardware3>
+        <info_hardware4>15 ГБ</info_hardware4>
+        <info_hardware5>DirectX 11</info_hardware5>
+        <info_hardware6>DX11 Compatible GeForce GTX 460 1GB or AMD HD 6850 1GB</info_hardware6>
+        <info_develop1>Behaviour Digital Inc.</info_develop1>
+        <info_develop2>Starbreeze Studios</info_develop2>
+        <info_develop3>18 марта 2023</info_develop3>
+        <info_develop4>8 марта 2017</info_develop4>
+        <info_develop5>Windows</info_develop5>
+        <link>https://www.deadbydaylight.com</link>
+        <vk>https://www.facebook.com/DeadByDaylight/</vk>  
+        <twitter>https://twitter.com/DeadbyDaylight</twitter>
+        <telegram>https://www.youtube.com/channel/UCaSgsFdGbwjfdawl3rOXiwQ</telegram>
+        <instagram>https://www.instagram.com/deadbydaylight/</instagram>
+        <github>https://www.twitch.tv/deadbydaylight</github>
+        
+        <pict1>../../own_pictures/deadByDaylight1.jpg</pict1>
+        <pict2>../../own_pictures/deadByDaylight2.jpg</pict2>
+        <pict3>../../own_pictures/deadByDaylight3.jpg</pict3>
+        <pict4>../../own_pictures/deadByDaylight4.jpg</pict4>
+       
+    </info>
+    <info id="AtomicHeart">
+        <title>Atomic Heart.GFM - Game Favour Market</title>
+        <video>https://youtu.be/CM1EjL4EKaE</video>
+        <nameGame>Atomic Heart</nameGame> 
+        <CostGame>49.99$</CostGame> 
+        <infoJanre>экшен</infoJanre> 
+        <infoDiff>Облачные сохранения
+                        Поддержка геймпада
+                        Есть достижения</infoDiff>
+        <description>
+            История альтернативной реальности 1950-х годов берет свое начало с развития робототехники и передовых технологий во время Второй мировой войны. Мир игры не так уж далек от идеалов, за которые сегодня борется человечество: счастливое общество, верховенство науки, идеальные города с залитыми солнцем зелеными парками и скверами, автоматизация повседневной жизни и желание достичь звезд. Всего этого мы можем достичь в ближайшем будущем. Но что, если мы заглянем на изнанку идеального мира? Могло ли что-то подобное уже произойти? И к чему это может привести?
+        </description>
+        <info_hardware1>Windows 7 (64-разрядная) или более поздняя (64-разрядная) версия ОС Windows</info_hardware1>
+        <info_hardware2>Двухъядерный с частотой 2,5 ГГц</info_hardware2>
+        <info_hardware3>4 ГБ</info_hardware3>
+        <info_hardware4>20 ГБ</info_hardware4>
+        <info_hardware5>DirectX 11</info_hardware5>
+        <info_hardware6>NVIDIA GeForce GTX 760, AMD Radeon R7 270X или выше</info_hardware6>
+        <info_develop1>Mundfish</info_develop1>
+        <info_develop2>Mundfish</info_develop2>
+        <info_develop3>16 марта 2023</info_develop3>
+        <info_develop4>21 февраля 2023</info_develop4>
+        <info_develop5>Windows</info_develop5>
+        <link>https://mundfish.com</link>
+        <vk>https://www.tiktok.com/@atomicheartofficial</vk>  
+        <twitter>https://twitter.com/mundfish</twitter>
+        <telegram>https://discord.gg/AtomicHeart</telegram>
+        <instagram>https://discord.gg/AtomicHeart</instagram>
+        <github>https://www.youtube.com/channel/UCjAij4NWCod80d70enm3tRw</github>
+        
+        <pict1>../../own_pictures/atomicHeart1.jpg</pict1>
+        <pict2>../../own_pictures/atomicHeart2.jpg</pict2>
+        <pict3>../../own_pictures/atomicHeart3.jpg</pict3>
+        <pict4>../../own_pictures/atomicHeart4.jpg</pict4>
+       
+    </info>
+    <info id="Terraria">
+        <title>Terraria.GFM - Game Favour Market</title>
+        <video>https://youtu.be/H77Zfzy4LWw</video>
+        <nameGame>Terraria</nameGame> 
+        <CostGame>12.45$</CostGame> 
+        <infoJanre>Экшен, приключенческие игры, Инди</infoJanre> 
+        <infoDiff>Облачные сохранения
+                        Многопользовательская
+                        Кооператив
+                        Поддержка геймпада
+                        Есть достижения</infoDiff>
+        <description>
+            Копайте, сражайтесь, исследуйте, стройте! Нет ничего невозможного в этой насыщенной событиями приключенческой игре. Весь мир — ваше полотно, а вся земля — ваши краски! Хватайте инструменты и вперед! Создавайте оружие, чтобы сражаться с различными врагами в разных биомах. Копайте глубже, чтобы найти драгоценности, деньги и кучу других полезных вещей. Собирайте ресурсы, чтобы создать всё, что вам нужно, и сделать мир таким, каким вы хотите его видеть. Постройте свой дом, крепость или даже замок! Люди переедут к вам жить и может быть даже продадут вам вещи, которые помогут вам в ваших путешествиях.
+        </description>
+        <info_hardware1>Windows XP, Vista, 7</info_hardware1>
+        <info_hardware2>с тактовой частотой 1,6 ГГц</info_hardware2>
+        <info_hardware3>512 МБ</info_hardware3>
+        <info_hardware4>1 ГБ</info_hardware4>
+        <info_hardware5>9.0c или новее</info_hardware5>
+        <info_hardware6>со 128 МБ видеопамяти и поддержкой шейдеров 1.1</info_hardware6>
+        <info_develop1>Re-Logic</info_develop1>
+        <info_develop2>Re-Logic</info_develop2>
+        <info_develop3>17 марта 2023</info_develop3>
+        <info_develop4>16 мая 2011</info_develop4>
+        <info_develop5>Windows</info_develop5>
+        <link>https://www.terraria.org</link>
+        <vk>https://twitter.com/Terraria_Logic</vk>  
+        <twitter>https://twitter.com/Terraria_Logic</twitter>
+        <telegram>https://www.facebook.com/TerrariaOfficial</telegram>
+        <instagram>https://twitter.com/Terraria_Logic</instagram>
+        <github>https://twitter.com/Terraria_Logic</github>
+        
+        <pict1>../../own_pictures/terraria1.jpg</pict1>
+        <pict2>../../own_pictures/terraria2.jpg</pict2>
+        <pict3>../../own_pictures/terraria3.jpg</pict3>
+        <pict4>../../own_pictures/terraria4.jpg</pict4>
+       
+    </info>
+    <info id="Phasmophobia">
+        <title>Phasmophobia.GFM - Game Favour Market</title>
+        <video>https://youtu.be/sRa9oeo5KiY</video>
+        <nameGame>Phasmophobia</nameGame> 
+        <CostGame>Бесплатно</CostGame> 
+        <infoJanre>Инди, ранний доступ, экшен</infoJanre> 
+        <infoDiff>Облачные сохранения
+                        Многопользовательская
+                        Кооператив
+                        Поддержка геймпада
+                        Remote play на телефоне</infoDiff>
+        <description>
+            Phasmophobia — это совместная сетевая психологическая хоррор-игра для 4 игроков. Вы и ваша команда исследователей паранормальных явлений отправитесь в места с привидениями, полные паранормальных явлений, и попытаетесь собрать как можно больше улик. Используйте свое снаряжение для охоты на призраков, чтобы найти и записать улики, чтобы продать их команде по удалению призраков. Иммерсивный опыт: Реалистичная графика и звуки, а также минималистичный пользовательский интерфейс обеспечивают полное погружение, которое будет держать вас в напряжении. Уникальные призраки: определите более 20 различных типов призраков, каждый из которых обладает уникальными чертами характера, характером и способностями, чтобы каждое расследование отличалось от предыдущего. Оборудование: Используйте хорошо-известное оборудование для охоты за привидениями, такое как считыватели ЭМП, духовые ящики, термометры и камеры ночного видения, чтобы найти улики и собрать как можно больше паранормальных доказательств. Найдите Проклятые владения, которые предоставляют информацию или способности в обмен на ваше здравомыслие. Полное распознавание голоса: Призраки слушают! Используйте свой реальный голос, чтобы взаимодействовать с Призраками через доски для спиритических сеансов и сеансы EVP с помощью Spirit Box. Локации: выбирайте из более чем 10 различных локаций с привидениями, каждая из которых имеет уникальные повороты, укрытия и макеты. Режимы игры: 4 уровня сложности по умолчанию, а также ежедневные и еженедельные испытания. Есть много способов проверить свои навыки. Командная работа: погрузитесь с головой, запачкайте руки в поисках улик, сражаясь за свою жизнь. Если вы не готовы к этой задаче, не рискуйте и поддержите свою команду из грузовика, наблюдая за расследованием с помощью видеонаблюдения и датчиков движения. Пользовательская сложность: создавайте свои собственные игры, чтобы адаптировать сложность к вашим потребностям или потребностям вашей группы, с пропорциональными наградами и придумывайте собственные безумные игровые режимы!
+        </description>
+        <info_hardware1>Windows 64-разрядные процессор и операционная система</info_hardware1>
+        <info_hardware2>Intel Core i5-4590 / AMD Ryzen 5 2600</info_hardware2>
+        <info_hardware3>8 ГБ</info_hardware3>
+        <info_hardware4>21 ГБ</info_hardware4>
+        <info_hardware5>DirectX 11</info_hardware5>
+        <info_hardware6>NVIDIA GTX 970 / AMD Radeon R9 390</info_hardware6>
+        <info_develop1>Kinetic Games</info_develop1>
+        <info_develop2>Kinetic Games</info_develop2>
+        <info_develop3>20 марта 2023</info_develop3>
+        <info_develop4>18 сентября 2020</info_develop4>
+        <info_develop5>Windows</info_develop5>
+        <link>https://kineticgames.co.uk</link>
+        <vk>https://www.youtube.com/channel/UCEyR7e-25KW9-oNv_CY8CSw</vk>  
+        <twitter>https://www.youtube.com/channel/UCEyR7e-25KW9-oNv_CY8CSw</twitter>
+        <telegram>https://discord.gg/phasmophobia</telegram>
+        <instagram>https://discord.gg/phasmophobia</instagram>
+        <github>http://store.steampowered.com/app/739630/Phasmophobia</github>
+        
+        <pict1>../../own_pictures/phasmophobia1.jpg</pict1>
+        <pict2>../../own_pictures/phasmophobia2.jpg</pict2>
+        <pict3>../../own_pictures/phasmophobia3.jpg</pict3>
+        <pict4>../../own_pictures/phasmophobia4.jpg</pict4>
+       
+    </info>
+    <info id="ApexLegends">
+        <title>Apex Legends.GFM - Game Favour Market</title>
+        <video>https://youtu.be/3D4sYCf1VPI</video>
+        <nameGame>Apex Legends</nameGame> 
+        <CostGame>Бесплатно</CostGame> 
+        <infoJanre>Приключченческие игры, бесплатно, экшен</infoJanre> 
+        <infoDiff>Многопользовательская
+                        Кооператив
+                        Поддержка геймпада
+                        Соревновательная
+                        Есть достижения
+                        Покупки внутри приложения</infoDiff>
+        <description>
+            Apex Legends — удостоенный наградами бесплатный геройский шутер от Respawn Entertainment. Освойте все тонкости игры за легендарных персонажей, число которых продолжает расти, и используйте их мощные умения в стратегии своего отряда. Побеждайте с характером в Apex Legends™ — бесплатном героическом шутере*, где легендарные персонажи с мощными способностями сражаются за славу и богатства на дальних рубежах Фронтира. Откройте для себя растущую коллекцию разнообразных легенд, глубокие тактические командные бои и смелые инновации, которые выходят далеко за рамки «Королевской битвы», — и всё это в суровом мире, где возможно всё. Встречайте новую эпоху в жанре геройских шутеров.
+        </description>
+        <info_hardware1>Windows 7 (64-разрядная) или более поздняя (64-разрядная) версия ОС Windows</info_hardware1>
+        <info_hardware2>AMD FX 4350 or Equivalent, Intel Core i3 6300 or Equivalent</info_hardware2>
+        <info_hardware3>6 ГБ</info_hardware3>
+        <info_hardware4>56 ГБ</info_hardware4>
+        <info_hardware5>DirectX 11</info_hardware5>
+        <info_hardware6> AMD Radeon™ HD 7730, NVIDIA GeForce® GT 640</info_hardware6>
+        <info_develop1>Respawn Entertainment</info_develop1>
+        <info_develop2>Electronic Arts</info_develop2>
+        <info_develop3>14 марта 2005 до н.э.</info_develop3>
+        <info_develop4>5 ноября 2020</info_develop4>
+        <info_develop5>Windows</info_develop5>
+        <link>https://www.ea.com/ru-ru/games/apex-legends</link>
+        <vk>https://steamcommunity.com/linkfilter/?url=https://www.twitch.tv/playapex</vk>  
+        <twitter>https://twitter.com/PlayApex</twitter>
+        <telegram>https://twitter.com/PlayApex</telegram>
+        <instagram>https://www.youtube.com/playapex/</instagram>
+        <github>https://twitter.com/PlayApex</github>
+        
+        <pict1>../../own_pictures/apexLegends1.jpg</pict1>
+        <pict2>../../own_pictures/apexLegends2.jpg</pict2>
+        <pict3>../../own_pictures/apexLegends3.jpg</pict3>
+        <pict4>../../own_pictures/apexLegends4.jpg</pict4>
+       
+    </info>
+    <info id="Dota2">
+        <title>Dota 2.GFM - Game Favour Market</title>
+        <video>https://youtu.be/-cSFPIwMEq4</video>
+        <nameGame>Dota 2</nameGame> 
+        <CostGame>Бесплатно</CostGame> 
+        <infoJanre>Экшен, бесплатно, стратегии</infoJanre> 
+        <infoDiff>Есть достижения</infoDiff>
+        <description>
+            Самая популярная игра в Steam. Ежедневно миллионы игроков по всему миру сражаются от лица одного из более сотни героев Dota 2, и даже после тысячи часов в ней есть чему научиться. Благодаря регулярным обновлениям игра живёт своей жизнью: геймплей, возможности и герои постоянно преображаются. Одно поле боя, неиссякаемые возможности. Игра может похвастаться бесконечным разнообразием героев, способностей и предметов, благодаря чему каждый матч уникален. Любой герой может исполнять множество ролей, и для каждой нужды найдутся подходящие предметы. Здесь вас ничто не ограничивает — вы сами выбираете, какой стратегии следовать. Все герои бесплатны. Равные соревновательные возможности — главная гордость игры. Чтобы все находились в одинаковом положении, её основа — в частности, обширный список героев — доступна каждому игроку. Если хотите, вы можете коллекционировать предметы, видоизменяющие как героев, так и мир вокруг них, но всё необходимое для вашего первого матча уже есть в игре. Зовите друзей и играйте вместе Dota 2 многогранна, и она не стоит на месте, но вступить в игру никогда не поздно. Научитесь основам в матче против ботов. Опробуйте возможности героев. А затем вступайте в битву с игроками вашего уровня и поведения: об этом позаботится система подбора игры.
+        </description>
+        <info_hardware1>Windows 7 или более поздняя</info_hardware1>
+        <info_hardware2>Двухъядерный процессор с тактовой частотой 2,80 ГГц от Intel или AMD</info_hardware2>
+        <info_hardware3>4 ГБ</info_hardware3>
+        <info_hardware4>60 ГБ</info_hardware4>
+        <info_hardware5>DirectX 11</info_hardware5>
+        <info_hardware6>NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600</info_hardware6>
+        <info_develop1>Valve</info_develop1>
+        <info_develop2>Valve</info_develop2>
+        <info_develop3>к сожалению, 15 марта 2023</info_develop3>
+        <info_develop4>недостойна огласки</info_develop4>
+        <info_develop5>Windows</info_develop5>
+        <link>https://www.dota2.com/home</link>
+        <vk>https://www.dota2.com/home</vk>  
+        <twitter>https://www.dota2.com/home</twitter>
+        <telegram>https://www.dota2.com/home</telegram>
+        <instagram>https://www.dota2.com/home</instagram>
+        <github>https://www.dota2.com/home</github>
+        
+        <pict1>../../own_pictures/dota1.jpg</pict1>
+        <pict2>../../own_pictures/dota2.jpg</pict2>
+        <pict3>../../own_pictures/dota3.jpg</pict3>
+        <pict4>../../own_pictures/dota4.jpg</pict4>
+       
+    </info>
+    <info id="Roblox">
+        <title>Roblox.GFM - Game Favour Market</title>
+        <video>https://youtu.be/Wycht1qZGp8</video>
+        <nameGame>Roblox</nameGame> 
+        <CostGame>Бесплатно</CostGame> 
+        <infoJanre>Приключченческие игры, бесплатно, экшен</infoJanre> 
+        <infoDiff>Многопользовательская
+                        Кооператив
+                        Поддержка геймпада
+                        Соревновательная
+                        Есть достижения
+                        Покупки внутри приложения</infoDiff>
+        <description>
+            Roblox — игровая онлайн-платформа и система создания игр, позволяющая любому пользователю создавать свои собственные и играть в созданные другими игры, охватывающие широкий спектр жанров. В некоторых источниках Roblox называют метавселенной. По состоянию на август 2020 года у Roblox более 164 млн активных пользователей в месяц; на октябрь 2021 года более 226 млн. Все они, в общей сумме, наиграли в нём более 107 млрд часов. Причём в Roblox играют более половины всех детей США в возрасте до 16 лет. Рост его популярности начался во второй половине 2010 года, а резко ускорился в связи с пандемией COVID-19. Сайт игровой платформы занимает второе место по популярности среди подростков, сразу после сайтов Google, включая YouTube. В начале 2023 года Roblox побил мировой рекорд по онлайну, набрав 9,3 млн активных пользователей.
+        </description>
+        <info_hardware1>Windows XP, Vista</info_hardware1>
+        <info_hardware2>Intel Pentium 4 1.6GHz или AMD Athlon64 2800+</info_hardware2>
+        <info_hardware3>200 Mb</info_hardware3>
+        <info_hardware4>256 Mb</info_hardware4>
+        <info_hardware5>DirectX 11</info_hardware5>
+        <info_hardware6>GeForce FX5200/Radeon 9600 SE</info_hardware6>
+        <info_develop1>Roblox Corporation</info_develop1>
+        <info_develop2>Roblox Corporation</info_develop2>
+        <info_develop3>14 марта 2023</info_develop3>
+        <info_develop4>1 сентября 2006</info_develop4>
+        <info_develop5>Windows</info_develop5>
+        <link>https://corp.roblox.com</link>
+        <vk>https://www.glassdoor.com/Overview/Working-at-Roblox-EI_IE242265.11,17.htm</vk>  
+        <twitter>https://twitter.com/Roblox</twitter>
+        <telegram>https://www.twitch.tv/Roblox</telegram>
+        <instagram>https://www.instagram.com/Roblox/</instagram>
+        <github>https://www.youtube.com/Roblox</github>
+        
+        <pict1>../../own_pictures/roblox1.jpg</pict1>
+        <pict2>../../own_pictures/roblox2.jpg</pict2>
+        <pict3>../../own_pictures/roblox3.jpg</pict3>
+        <pict4>../../own_pictures/roblox4.jpg</pict4>
+       
+    </info>
+    <info id="SlimeRancher2">
+        <title>Slime Rancher 2.GFM - Game Favour Market</title>
+        <video>https://youtu.be/qPfm3IClc0s</video>
+        <nameGame>Slime Rancher 2</nameGame> 
+        <CostGame>7.99$</CostGame> 
+        <infoJanre>Экшены, Приключенческие игры, Казуальные игры, Инди, Симуляторы, Ранний доступ</infoJanre> 
+        <infoDiff>Облачные сохранения
+                        Поддержка геймпада
+                        Для одного игрока</infoDiff>
+        <description>
+            Отправьтесь вместе с Беатрикс Лебо в новое путешествие через Слаймовое море к Радужному острову, в край древних тайн, и приручите множество новых непоседливых слаймов в продолжении нашумевшего хита — Slime Rancher.
+        </description>
+        <info_hardware1>Windows 10 64-разрядные процессор и операционная система</info_hardware1>
+        <info_hardware2>Intel Core i5-2500K / AMD FX-6300</info_hardware2>
+        <info_hardware3>8 ГБ</info_hardware3>
+        <info_hardware4>8 ГБ</info_hardware4>
+        <info_hardware5>DirectX 11</info_hardware5>
+        <info_hardware6>NVIDIA GeForce GTX 960 2GB / AMD Radeon R9 280 3GB</info_hardware6>
+        <info_develop1>Monomi Park</info_develop1>
+        <info_develop2>Monomi Park</info_develop2>
+        <info_develop3>20 марта 2023</info_develop3>
+        <info_develop4>22 сентября 2022</info_develop4>
+        <info_develop5>Windows</info_develop5>
+        <link>https://www.slimerancher.com</link>
+        <vk>https://www.slimerancher.com</vk>  
+        <twitter>https://twitter.com/monomipark</twitter>
+        <telegram>https://twitter.com/monomipark</telegram>
+        <instagram>https://www.youtube.com/channel/UCr4CsSQsFzaVTMR2HzPLUhw</instagram>
+        <github>https://steamcommunity.com/linkfilter/?url=https://discord.com/invite/slimerancher</github>
+        
+        <pict1>../../own_pictures/slimeRancher1.jpg</pict1>
+        <pict2>../../own_pictures/slimeRancher2.jpg</pict2>
+        <pict3>../../own_pictures/slimeRancher3.jpg</pict3>
+        <pict4>../../own_pictures/slimeRancher4.jpg</pict4>
+       
+    </info>
+    <info id="FnafSecurityBreach">
+        <title>FNaF Security Breach.GFM - Game Favour Market</title>
+        <video>https://youtu.be/BY9-jWQQHgw</video>
+        <nameGame>Five Nights at Freddy's: Security Breach</nameGame> 
+        <CostGame>8.99$</CostGame> 
+        <infoJanre>Приключенческие игры, Инди, экшен</infoJanre> 
+        <infoDiff>Поддержка геймпада
+                        Для одного игрока
+                        Есть достижения</infoDiff>
+        <description>
+            НОВАЯ ГЛАВА В ИСТОРИИ ВАШИХ СТРАХОВ. Five Nights at Freddy’s: Security Breach — очередной эпизод в серии игр-хорроров для всей семьи, снискавших популярность у миллионов игроков во всем мире. Вам предстоит проследить за судьбой мальчика Грегори, оказавшегося запертым на ночь в «Мегапиццаплексе Фредди Фазбера». Грегори должен заручиться поддержкой самого Фредди Фазбера, чтобы уйти от своих преследователей — переосмысленных персонажей франшизы Five Nights at Freddy’s, а также справиться с новыми жуткими угрозами. ОХОТНИКИ И ЖЕРТВЫ. После запуска ночных протоколов аниматроники в «Мегапиццаплексе Фредди Фазбера» начинают неустанно преследовать нарушителей. Глэмрок-Чика, волчица Роксанна, аллигатор Монтгомери и Ванесса — охрана пиццаплекса — готовы перевернуть все стенды с сахарной ватой, поэтому вам не стоит задерживаться на одном месте. АДАПТИРУЙТЕСЬ, ЧТОБЫ ВЫЖИТЬ. Используйте камеры наблюдения, чтобы ознакомиться с окружением и проложить маршрут через опасные зоны. Опрокидывайте банки с краской и разбрасывайте игрушки, чтобы отвлечь противников, — нужно лишь успеть ускользнуть, прежде чем они вас заметят. Прячьтесь в укромных местах, чтобы избежать опасности, или попытайтесь убежать от преследователей. Действуйте на свое усмотрение, но будьте готовы адаптироваться к ситуации. ИССЛЕДУЙТЕ И СОВЕРШАЙТЕ ОТКРЫТИЯ. «Мегапиццаплекс Фредди Фазбера» предлагает своим гостям множество аттракционов — «Гольф Монти», «Гонки Рокси», «Боулинг Бонни», канализацию и... Серьезно, канализацию? Пиццаплекс воистину огромен — здесь вас ждет множество интересных находок!
+        </description>
+        <info_hardware1>Windows 10 (64 bit) процессор и операционная система</info_hardware1>
+        <info_hardware2> AMD Ryzen 5 3600, Core i5 6600K</info_hardware2>
+        <info_hardware3>8 ГБ</info_hardware3>
+        <info_hardware4>80 ГБ</info_hardware4>
+        <info_hardware5>DirectX 12</info_hardware5>
+        <info_hardware6> Nvidia GeForce GTX 1050 Ti</info_hardware6>
+        <info_develop1>Steel Wool Studios</info_develop1>
+        <info_develop2>ScottGames</info_develop2>
+        <info_develop3>1 апреля 2023</info_develop3>
+        <info_develop4>17 декабря 2021</info_develop4>
+        <info_develop5>Windows</info_develop5>
+        <link>https://www.steelwoolstudios.com/five-nights-at-freddys-security-breach</link>
+        <vk>https://www.youtube.com/channel/UCpOXWy4Erc4UNoxI9xW-CXw</vk>  
+        <twitter>https://twitter.com/SteelWoolStudio</twitter>
+        <telegram>https://www.facebook.com/SteelWoolStudios</telegram>
+        <instagram>https://www.instagram.com/steel_wool_studios/?hl=en</instagram>
+        <github>https://www.youtube.com/channel/UCpOXWy4Erc4UNoxI9xW-CXw</github>
+        
+        <pict1>../../own_pictures/fnafSecurityBreach1.jpg</pict1>
+        <pict2>../../own_pictures/fnafSecurityBreach2.jpg</pict2>
+        <pict3>../../own_pictures/fnafSecurityBreach3.jpg</pict3>
+        <pict4>../../own_pictures/fnafSecurityBreach4.jpg</pict4>
+       
+    </info>
+    <info id="Inscryption">
+        <title>Inscryption.GFM - Game Favour Market</title>
+        <video>https://youtu.be/uAn7OxLub9Y</video>
+        <nameGame>Inscryption</nameGame> 
+        <CostGame>4.99$</CostGame> 
+        <infoJanre>Приключенческие игры, Инди, Стратегии</infoJanre> 
+        <infoDiff>Облачные сохранения
+                        Для одного игрока
+                        Есть достижения</infoDiff>
+        <description>
+            Создатель Pony Island и The Hex представляет вам новое умопомрачительное признание в любви к видеоиграм и саморазрушению. Inscryption – мрачное карточное приключение, в котором roguelike с составлением колод, головоломки в духе квест-комнат и психологический хоррор смешались в пропитанный кровью коктейль. А тайны написанного на картах еще мрачнее... В Inscryption вы сможете: Создать колоду лесных существ с помощью хирургии, членовредительства и выбора карт Узнать, какие тайны скрываются за стенами хижины Лешего Отправиться в непредвиденное и невероятно страшное путешествие
+        </description>
+        <info_hardware1>Windows 7</info_hardware1>
+        <info_hardware2> Intel Core i5-760 (4 * 2800); AMD Athlon II X4 645 AM3 (4 * 3100)</info_hardware2>
+        <info_hardware3>4 ГБ</info_hardware3>
+        <info_hardware4>3 ГБ</info_hardware4>
+        <info_hardware5>DirectX 11</info_hardware5>
+        <info_hardware6>GeForce GTX 550 Ti (3072 VRAM); Radeon HD 6850 (1024 VRAM)</info_hardware6>
+        <info_develop1> Devolver Digital</info_develop1>
+        <info_develop2> Devolver Digital</info_develop2>
+        <info_develop3>16 марта 2023</info_develop3>
+        <info_develop4>19 октября 2021</info_develop4>
+        <info_develop5>Windows</info_develop5>
+        <link>https://www.inscryption.com</link>
+        <vk>https://discord.com/invite/danielmullinsgames</vk>  
+        <twitter>https://twitter.com/DMullinsGames</twitter>
+        <telegram>https://discord.com/invite/danielmullinsgames</telegram>
+        <instagram>https://discord.com/invite/danielmullinsgames</instagram>
+        <github>https://discord.com/invite/danielmullinsgames</github>
+        
+        <pict1>../../own_pictures/inscryption1.jpg</pict1>
+        <pict2>../../own_pictures/inscryption2.jpg</pict2>
+        <pict3>../../own_pictures/inscryption3.jpg</pict3>
+        <pict4>../../own_pictures/inscryption4.jpg</pict4>
+       
+    </info>
+    <info id="TinyBunny">
+        <title>Tiny Bunny.GFM - Game Favour Market</title>
+        <video>https://youtu.be/BGI4nwcjquA</video>
+        <nameGame>Tiny Bunny</nameGame> 
+        <CostGame>4.99$</CostGame> 
+        <infoJanre>Приключенческие игры, Инди, Ранний доступ</infoJanre> 
+        <infoDiff>Для одного игрока
+                        Есть достижения</infoDiff>
+        <description>
+            Все засыпает с приходом зимы, но этот лес не спит. Что-то бродит по его заснеженным тропинкам, следит из-за черных деревьев, и забирает то, что ему причитается. Оно оставляет после себя лишь странные слухи о голосах, зовущих из чащи, о лицах, заглядывающих в окна, о странных следах на снегу... и фотографии детей на объявлениях о пропаже. Тому, кто услышал голос леса, уже не поможет ничего. Ему остается лишь все глубже погружаться в холодные объятья ужаса, чтобы там, в ледяной черноте, сделать последний выбор: остаться живым или остаться человеком? «Зайчик» - нелинейная визуальная новелла в жанре ужасов, по мотивам одноимённого рассказа Дмитрия Мордаса. Действие истории происходит в тихом, ничем не примечательном поселке, окруженном со всех сторон лесом. Здесь вдруг начинают пропадать дети, и главный герой, недавно переехавший сюда шестиклассник, невольно оказывается свидетелем и участником кошмарных событий. Мы планируем пять эпизодов. На данный момент готово три. Предлагаем сыграть в ПЕРВЫЙ, ВТОРОЙ и ТРЕТИЙ эпизоды. ✔ Увлекательная страшная история, которая останется в вашей памяти надолго. ✔ Стильная графика, выполненная в черно-белой гамме. ✔ Оригинальный, страшный саундтрек пробирающий до костей. ✔ Неожиданные повороты сюжета. ✔ Тревожная, гнетущая атмосфера. ✔ Секреты и загадки. "Внимание! Данная игра содержит сцены физического и морального насилия, а также ненормативную лексику. Будьте осторожны и берегите себя!"
+        </description>
+        <info_hardware1> Windows XP+ (x86)</info_hardware1>
+        <info_hardware2> 1.2 GHz or faster processor</info_hardware2>
+        <info_hardware3>2 ГБ ОЗУ</info_hardware3>
+        <info_hardware4>800 MB</info_hardware4>
+        <info_hardware5>DirectX 9</info_hardware5>
+        <info_hardware6>512 MB display memory</info_hardware6>
+        <info_develop1>Saikono</info_develop1>
+        <info_develop2>Saikono</info_develop2>
+        <info_develop3>16 марта 2023</info_develop3>
+        <info_develop4>16 апреля 2021</info_develop4>
+        <info_develop5>Windows</info_develop5>
+        <link>https://bunny-horror.tumblr.com</link>
+        <vk>https://bunny-horror.tumblr.com</vk>  
+        <twitter>https://bunny-horror.tumblr.com</twitter>
+        <telegram>https://bunny-horror.tumblr.com</telegram>
+        <instagram>https://bunny-horror.tumblr.com</instagram>
+        <github>https://bunny-horror.tumblr.com</github>
+        
+        <pict1>../../own_pictures/tinyBunny1.jpg</pict1>
+        <pict2>../../own_pictures/tinyBunny2.jpg</pict2>
+        <pict3>../../own_pictures/tinyBunny3.jpg</pict3>
+        <pict4>../../own_pictures/tinyBunny4.jpg</pict4>
+       
+    </info>
+    <info id="ResidentEvilVilage">
+        <title>Resident Evil Vilage.GFM - Game Favour Market</title>
+        <video>https://youtu.be/jwPqbleWlns</video>
+        <nameGame>Resident Evil Vilage</nameGame> 
+        <CostGame>29.99$</CostGame> 
+        <infoJanre>Хоррор, экшен</infoJanre> 
+        <infoDiff>Облачные сохранения
+                        Для одного игрока
+                        Поддержка геймпада
+                        Есть достижения</infoDiff>
+        <description>
+            Пережив страшную трагедию, Итан отправляется на поиски похищенной дочери и попадает в глухую деревню. Что его там ждёт? Эта демоверсия позволит вам опробовать Resident Evil Village, игру в жанре survival horror, а также режим от третьего лица, добавленный в Gold Edition и открывающий новое видение игры. Время, которое можно провести в игре, ограничено. Не пропустите! Примечание. Условия доступа к демоверсии могут измениться без предварительного уведомления. Подробности на официальном веб-сайте. Для использования контента необходимо подключение к Интернету. Режим от третьего лица, включенный в Gold Edition и дополнение «Семья Уинтерс», относится только к сюжетной кампании Resident Evil Village.
+        </description>
+        <info_hardware1>Windows 10 (64-разрядная) или более поздняя (64-разрядная) версия ОС Windows</info_hardware1>
+        <info_hardware2>AMD Ryzen 3 1200 / Intel Core i5-7500</info_hardware2>
+        <info_hardware3>8 ГБ</info_hardware3>
+        <info_hardware4>40 ГБ</info_hardware4>
+        <info_hardware5>DirectX 12</info_hardware5>
+        <info_hardware6> AMD Radeon RX 560 with 4GB VRAM / NVIDIA GeForce GTX 1050 Ti with 4GB VRAM</info_hardware6>
+        <info_develop1>CAPCOM Co., Ltd.</info_develop1>
+        <info_develop2>CAPCOM Co., Ltd.</info_develop2>
+        <info_develop3>27 марта 2023</info_develop3>
+        <info_develop4>21 октября 2022</info_develop4>
+        <info_develop5>Windows</info_develop5>
+        <link>https://www.residentevil.com/village/uk/</link>
+        <vk>https://www.residentevil.com/village/uk/</vk>  
+        <twitter>https://www.residentevil.com/village/uk/</twitter>
+        <telegram>https://www.residentevil.com/village/uk/</telegram>
+        <instagram>https://www.residentevil.com/village/uk/</instagram>
+        <github>https://www.residentevil.com/village/uk/</github>
+        
+        <pict1>../../own_pictures/residentEvilVilage1.jpg</pict1>
+        <pict2>../../own_pictures/residentEvilVilage2.jpg</pict2>
+        <pict3>../../own_pictures/residentEvilVilage3.jpg</pict3>
+        <pict4>../../own_pictures/residentEvilVilage4.jpg</pict4>
+       
+    </info>
+    <info id="Overwatch">
+        <title>Overwatch 2.GFM - Game Favour Market</title>
+        <video>https://youtu.be/ivDAI-FXMH4</video>
+        <nameGame>Overwatch 2</nameGame> 
+        <CostGame>Бесплатно</CostGame> 
+        <infoJanre>	Шутер, экшен</infoJanre> 
+        <infoDiff>Облачные сохранения
+                        Многопользовательская
+                        Кооператив
+                        Поддержка геймпада
+                        Соревновательная
+                        Есть достижения
+                        От первого лица</infoDiff>
+        <description>
+            Overwatch 2 — многопользовательская бесплатная компьютерная игра в жанре шутера от первого лица, разрабатываемая и издаваемая компанией Blizzard Entertainment. Являясь продолжением геройского шутера Overwatch, игра сохраняет привычную игровую атмосферу для режима PvP и добавляет постоянные кооперативные режимы. Основным изменением в PvP режиме стало уменьшение размера команды с шести до пяти человек, что потребовало переработки нескольких персонажей. Выход игры в раннем доступе состоялся 4 октября 2022 года для Windows, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S и Nintendo Switch.
+        </description>
+        <info_hardware1>Windows 7 (64-разрядная) или более поздняя (64-разрядная) версия ОС Windows</info_hardware1>
+        <info_hardware2>Intel® Core™ i3 или AMD Phenom™ X3 8650</info_hardware2>
+        <info_hardware3>6 ГБ</info_hardware3>
+        <info_hardware4>50 ГБ</info_hardware4>
+        <info_hardware5>DirectX 11</info_hardware5>
+        <info_hardware6>NVIDIA® GeForce® GTX 600 series, AMD Radeon™ HD 7000 series</info_hardware6>
+        <info_develop1>Blizzard Entertainment</info_develop1>
+        <info_develop2>Blizzard Entertainment</info_develop2>
+        <info_develop3>19 апреля 2023</info_develop3>
+        <info_develop4>4 октября 2022</info_develop4>
+        <info_develop5>Windows</info_develop5>
+        <link>https://overwatch.blizzard.com/ru-ru/</link>
+        <vk>https://vk.com/overwatchru</vk>  
+        <twitter>https://twitter.com/OverwatchRU</twitter>
+        <telegram>https://twitter.com/OverwatchRU</telegram>
+        <instagram>https://www.youtube.com/OverwatchRU</instagram>
+        <github>https://www.youtube.com/OverwatchRU</github>
+        
+        <pict1>../../own_pictures/overwatch1.jpg</pict1>
+        <pict2>../../own_pictures/overwatch2.jpg</pict2>
+        <pict3>../../own_pictures/overwatch3.jpg</pict3>
+        <pict4>../../own_pictures/overwatch4.jpg</pict4>
+       
+    </info>
+
+    <info id="RocketLeague">
+        <title>Rocket League.GFM - Game Favour Market</title>
+        <video>https://www.youtube.com/embed/LmewgREgNTE</video>
+        <nameGame>Rocket League</nameGame> 
+        <CostGame>Бесплатно</CostGame> 
+        <infoJanre>Гонки, аркадные, экшен</infoJanre> 
+        <infoDiff>Облачные сохранения
+                        Многопользовательская
+                        Кооператив
+                        Поддержка геймпада
+                        Соревновательная
+                        Есть достижения</infoDiff>
+        <description>
+            Rocket League — это энергичное сочетание аркадного футбола, автомобильного безумия, простого управления и соревнований, основанных на законах физики.<br><br>Rocket League®<br><br>ИГРАЙТЕ В ROCKET LEAGUE БЕСПЛАТНО!<br><br>Загрузите игру и сразитесь в этом высокооктановом гибриде аркадного футбола и гоночного безумия! Соберите свой болид, выезжайте на поле и примите участие в одной из самых высоко оценённых спортивных игр всех времён! Загрузите игру и начните забивать голы прямо сейчас!<br>Играйте в одиночку или с друзьями в сетевых режимах «1 на 1», «2 на 2» и «3 на 3» либо испытайте дополнительные режимы — «Рокот», «Снежный денёк» или «Кольца». Открывайте новые предметы в Rocket Pass, повышайте свой соревновательный рейтинг, участвуйте в соревновательных турнирах, выполняйте испытания, используйте преимущества кросс-платформенного прогресса и не только! Выезжайте на поле. Пора забивать голы!
+        </description>
+        <info_hardware1>Windows 7 (64-разрядная) или более поздняя (64-разрядная) версия ОС Windows</info_hardware1>
+        <info_hardware2>Двухъядерный с частотой 2,5 ГГц</info_hardware2>
+        <info_hardware3>4 ГБ</info_hardware3>
+        <info_hardware4>20 ГБ</info_hardware4>
+        <info_hardware5>DirectX 11</info_hardware5>
+        <info_hardware6>NVIDIA GeForce GTX 760, AMD Radeon R7 270X или выше</info_hardware6>
+        <info_develop1>Psyonix LLC</info_develop1>
+        <info_develop2>Psyonix LLC</info_develop2>
+        <info_develop3>14 марта 2023</info_develop3>
+        <info_develop4>7 июля 2015</info_develop4>
+        <info_develop5>Windows</info_develop5>
+        <link></link>
+        <vk></vk>  
+        <twitter></twitter>
+        <telegram></telegram>
+        <instagram></instagram>
+        <github></github>
+        
+        <pict1>../../own_pictures/rocketLeague1.jpg</pict1>
+        <pict2>../../own_pictures/rocketLeague2.jpg</pict2>
+        <pict3>../../own_pictures/rocketLeague3.jpg</pict3>
+        <pict4>../../own_pictures/rocketLeague4.jpg</pict4>
+       
+    </info>
+</game>

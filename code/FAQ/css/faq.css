@@ -1,0 +1,246 @@
+#main_border {
+  border: 1.5vw solid #21FEFE;
+  border-radius: 2vw;
+}
+
+#vk_logo, #instagram_logo, #twitter_logo, #telegram_logo, #github_logo, #link_logo {
+  width: 4vw;
+  height: 4vw;
+  margin: 1vw;
+}
+
+body {
+  background-color: #313131;
+}
+
+#logo2 {
+  width: 11vw;
+}
+
+#header {
+  font-size: 2.7vw;
+  color: white;
+  background-color: #252626;
+  border-radius: 1.5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1vw;
+}
+
+#header div {
+  font-family: "Lucida Sans Regular";
+  font-size: 2.7vw;
+}
+
+#mag_logo, #faq_logo, #ref_logo {
+  height: 6vw;
+  width: 6vw;
+}
+
+#pers_logo {
+  width: 9vw;
+  height: 9vw;
+}
+
+#search_logo {
+  width: 3vw;
+}
+
+#search {
+  background-color: #313131;
+  border-radius: 2.7vw;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 94.7vw;
+  background: #313131;
+  color: #f1f1f1;
+  z-index: 20;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.BlockQuestions {
+  margin-top: 3vw;
+}
+
+.Question {
+  box-shadow: 0 0 2vw #21FEFE;
+  margin-bottom: 2vw;
+  border-radius: 1.5vw;
+}
+
+.textQuest {
+  background-color: #1C1D1D;
+  color: #21FEFE;
+  font-size: 3vw;
+  display: block;
+  padding: 1.5vw;
+  border-top-left-radius: 2vw;
+  border-bottom-right-radius: 2vw;
+}
+
+.answerQuest {
+  background-color: #252626;
+  color: white;
+  font-size: 2vw;
+  display: none;
+  padding: 0.5vw 2vw 2vw 2vw;
+  border-bottom-right-radius: 2vw;
+}
+
+#showAnsw,
+#showAnsw1,
+#showAnsw2 {
+  display: none;
+}
+
+#showAnsw:checked ~ .answerQuest,
+#showAnsw1:checked ~ .answerQuest,
+#showAnsw2:checked ~ .answerQuest {
+  display: block;
+}
+
+.referenceBlock {
+  color: white;
+  font-size: 2vw;
+  border-top: 0.6vw dashed #1C1D1D;
+  border-bottom: 0.6vw dashed #1C1D1D;
+  margin: 3vw 0vw 3vw 0vw;
+  padding-bottom: 1vw;
+}
+
+.Ref {
+  font-size: 5vw;
+  color: #21FEFE;
+}
+
+.mainThink {
+  font-size: 2.5vw;
+  box-shadow: 0 0 1vw #21FEFE;
+  margin: 2vw;
+  border-radius: 1.5vw;
+  padding: 1vw;
+  background-color: #252626;
+}
+
+.rootsRef {
+  font-size: 3vw;
+  color: #21FEFE;
+  margin: 1vw;
+}
+
+.listRoots li {
+  font-size: 2.4vw;
+  padding-bottom: 1vw;
+  margin-top: 1.3vw;
+  color: rgba(31, 203, 203, 0.9);
+}
+
+.thanksRef {
+  margin: 1vw;
+  padding: 1vw;
+  font-size: 2.8vw;
+  box-shadow: 0 0 2vw #21FEFE;
+  background-color: #252626;
+  border-radius: 1.5vw;
+}
+
+.simplebar-track.simplebar-vertical {
+  background-color: none;
+  width: 1vw;
+  box-shadow: 0 0 2vw grey;
+  border-radius: 5vw;
+}
+
+.simplebar-content-wrapper {
+  padding-right: 0.5vw;
+}
+
+.simplebar-scrollbar::before {
+  opacity: 1;
+  background-color: #21FEFE;
+  border-radius: 0;
+  margin-right: 1vw;
+}
+
+.simplebar-track.simplebar-vertical .simplebar-scrollbar::before {
+  top: 0;
+  bottom: 0;
+}
+
+.simplebar-scrollbar.simplebar-visible::before {
+  opacity: 1;
+}
+
+#onTop {
+  display: inline-block;
+  border-radius: 500px;
+  background-color: #252626;
+  z-index: 20;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 3vw;
+}
+#onTop img {
+  height: 6vw;
+  width: 6vw;
+  transform: rotate(90deg);
+}
+
+#footer {
+  color: #21FEFE;
+  background-color: #1C1D1D;
+  border-radius: 2vw;
+  display: grid;
+  grid-template-areas: "partner community" "services company";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  font-size: 2.7vw;
+  padding: 5% 5% 0% 5%;
+}
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(14, 17, 31);
+}
+
+#preloader.hide-preloader {
+  animation: hidePreloader 1s;
+}
+
+#preloader.preloader-hidden {
+  display: none;
+}
+
+@keyframes hidePreloader {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}/*# sourceMappingURL=faq.css.map */

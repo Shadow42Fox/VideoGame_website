@@ -1,0 +1,995 @@
+#blockOfMainInfo {
+  background-color: #1C1D1D;
+}
+
+#main_border {
+  border: 1.5vw solid #21FEFE;
+  border-radius: 2vw;
+}
+
+#vk_logo, #instagram_logo, #twitter_logo, #telegram_logo, #github_logo, #link_logo {
+  width: 4vw;
+  height: 4vw;
+  margin: 1vw;
+}
+
+body {
+  background-color: #313131;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#blockOfMainInfo {
+  margin-bottom: 0.5vw;
+  border-radius: 2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#blockOfMainInfo div {
+  color: white;
+  font-size: 3.4vw;
+  font-family: "Lucida Sans Regular";
+}
+
+#profile {
+  font-size: 2.7vw;
+}
+
+@media (max-width: 480px) {
+  #blockOfMainInfo div, #profile {
+    font-size: 2vw;
+  }
+}
+#logo {
+  width: 19vw;
+}
+
+#logo2 {
+  width: 11vw;
+}
+
+#header {
+  font-size: 2.7vw;
+  color: white;
+  background-color: #252626;
+  border-radius: 1.5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1vw;
+}
+
+#header div {
+  font-family: "Lucida Sans Regular";
+  font-size: 2.7vw;
+}
+
+#mag_logo, #faq_logo, #ref_logo {
+  height: 6vw;
+  width: 6vw;
+}
+
+#pers_logo {
+  width: 9vw;
+  height: 9vw;
+}
+
+#search_logo {
+  width: 3vw;
+}
+
+#search {
+  background-color: #313131;
+  border-radius: 2.7vw;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 94.7vw;
+  background: #313131;
+  color: #f1f1f1;
+  z-index: 20;
+  height: 6.5vw;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.profileMenu {
+  display: none;
+  padding-left: 2vw;
+  z-index: 3;
+  position: absolute;
+  left: 43vw;
+  background-color: rgba(37, 38, 38, 0.95);
+  border-radius: 2vw;
+  border: 1vw double #21FEFE;
+  box-shadow: 0 0 1.5vw #21FEFE;
+}
+.profileMenu img {
+  height: 4vw;
+  width: 4vw;
+}
+.profileMenu div {
+  background-color: #1C1D1D;
+  padding: 1vw;
+  border-radius: 1.5vw;
+  font-size: 2vw;
+}
+.profileMenu #regButt, .profileMenu #regButt div {
+  margin: 2vw 0vw 2vw 0vw;
+}
+.profileMenu #baskField, .profileMenu #favField {
+  margin-bottom: 2vw;
+}
+
+#menuCheck {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: none;
+}
+
+#menuCheck:checked ~ .profileMenu {
+  display: block;
+}
+
+.regist_login {
+  display: none;
+  position: absolute;
+  width: 60vw;
+  right: 10vw;
+  height: 65vw;
+}
+
+#regLogField {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  display: none;
+}
+
+#regLogField:checked ~ .regist_login {
+  display: block;
+  background-color: rgba(31, 203, 203, 0.9);
+  border: 1vw double #1C1D1D;
+  box-shadow: 0 0 2vw #21FEFE;
+}
+
+.Table {
+  background-color: rgba(37, 38, 38, 0.7);
+  height: 12vw;
+  border: 1vw double #21FEFE;
+  box-shadow: 0 0 2vw #1C1D1D;
+}
+
+.nameTable {
+  height: 1vw;
+}
+
+.buttTable {
+  padding-left: 2vw;
+  margin-left: 1vw;
+  width: 40vw;
+  height: 4vw;
+  border-radius: 2vw;
+  background-color: rgba(111, 113, 113, 0.7);
+  color: #21FEFE;
+  font-size: 2vw;
+}
+
+.buttTable:focus {
+  border: 1vw;
+  background-color: white;
+  color: #080909;
+}
+
+#RegDelBlock {
+  background: none;
+  margin-left: 25vw;
+}
+
+.buttRegDel {
+  padding: 1vw;
+  border-radius: 2vw;
+  margin-left: 2vw;
+  font-size: 2vw;
+  color: #21FEFE;
+  background-color: #080909;
+  border: 1vw double #21FEFE;
+  box-shadow: 0 0 2vw #1C1D1D;
+}
+
+.buttRegDel:hover {
+  box-shadow: 0 0 3vw #1C1D1D;
+  padding: 1.5vw;
+}
+
+.buttRegDel:active {
+  background-color: #21FEFE;
+  border: 1vw double #1C1D1D;
+  color: #080909;
+}
+
+::placeholder {
+  color: darkgrey;
+}
+
+.simplebar-track.simplebar-vertical {
+  background-color: none;
+  width: 1vw;
+  box-shadow: 0 0 2vw grey;
+  border-radius: 5vw;
+}
+
+.simplebar-content-wrapper {
+  padding-right: 0.5vw;
+}
+
+.simplebar-scrollbar::before {
+  opacity: 1;
+  background-color: #21FEFE;
+  border-radius: 0;
+  margin-right: 1vw;
+}
+
+.simplebar-track.simplebar-vertical .simplebar-scrollbar::before {
+  top: 0;
+  bottom: 0;
+}
+
+.simplebar-scrollbar.simplebar-visible::before {
+  opacity: 1;
+}
+
+#itemsBusket {
+  overflow-y: auto;
+  height: 18vw;
+}
+
+#itemOfBusket {
+  display: grid;
+  grid-template-areas: "photo nameOfItem Trash" "photo costOfItem Trash";
+  grid-template-columns: 1fr 4fr 1fr;
+  border-bottom: 0.3vw dashed #313131;
+  border-radius: 0%;
+  height: 12vw;
+}
+
+#itemOfBusket div {
+  font-size: 2vw;
+}
+
+#pictBusketItem {
+  height: 8vw;
+  width: 7vw;
+}
+
+#nameBuskItem {
+  border-bottom: 0.2vw solid #21FEFE;
+  border-radius: 0%;
+}
+
+#NameBusketBlock {
+  border-bottom: 0.3vw solid #21FEFE;
+}
+
+#baskBuyPriceBlock {
+  border-top: 0.2vw dashed rgba(33, 254, 254, 0.58);
+  border-radius: 0%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.buttBaskBuy {
+  padding: 0.5vw;
+  border-radius: 2vw;
+  box-shadow: 0 0 0.5vw #21FEFE;
+  background-color: #21FEFE;
+  border: 1vw double #1C1D1D;
+  color: #080909;
+}
+
+#baskBuyBlock .buttBaskBuy {
+  font-size: 3vw;
+}
+
+#fullPriceBlock div, #fullPriceBlock, #baskBuyBlock {
+  display: inline;
+}
+
+#fullPriceBlock #fullprice {
+  font-size: 2.5vw;
+  padding-left: 0%;
+}
+
+.buttBaskBuy:hover {
+  box-shadow: 0 0 1vw #21FEFE;
+}
+
+.buttBaskBuy:active {
+  color: #21FEFE;
+  background-color: #080909;
+}
+
+.cart__quantity {
+  display: inline;
+  font-size: 2px;
+  margin-left: 12vw;
+}
+
+.trash {
+  background-color: #1C1D1D;
+  width: 4vw;
+  height: 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vw;
+}
+
+.for_bsk {
+  display: none;
+}
+
+.text_cost {
+  display: inline;
+}
+
+#blockWithNews {
+  display: flex;
+  align-content: space-around;
+  align-items: center;
+  flex-flow: row nowrap;
+  margin-bottom: 3vw;
+}
+
+.toLeft, .toRight {
+  margin: 1vw;
+  border-radius: 500px;
+  background-color: #1C1D1D;
+  width: 8vw;
+  height: 6vw;
+}
+.toLeft img, .toRight img {
+  width: 8vw;
+  height: 6vw;
+  position: absolute;
+}
+
+#News {
+  width: 90vw;
+  height: 50vw;
+  border: 0.7vw solid #21FEFE;
+  border-radius: 4vw;
+  background-color: #1C1D1D;
+  color: white;
+  padding: 2vw;
+}
+
+#news_img {
+  border-radius: 2vw;
+  width: 50vw;
+  height: 35vw;
+  overflow: hidden;
+}
+
+#news_img img {
+  width: 50vw;
+  height: 35vw;
+  border-radius: 2vw;
+}
+
+#infoNews {
+  font-size: 2.7vw;
+}
+
+#headNews, #NameOfList {
+  font-size: 4.8vw;
+}
+
+#favBaskNews {
+  font-size: 2vw;
+  background-color: #080909;
+  padding: 1vw;
+  border-radius: 2vw;
+}
+
+#favBaskNews div div, #favBaskNews div img {
+  width: 3.75vw;
+  height: 3.75vw;
+}
+
+#WatchAllGames {
+  font-size: 3.4vw;
+  color: #D9D9D9;
+}
+
+.gridNews {
+  display: grid;
+  grid-template-areas: "head head info" "pic pic info" "pic pic fav_bask";
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  text-align: left;
+  grid-column-gap: 2vw;
+}
+
+#favNews, #baskNews {
+  border-radius: 1.5vw;
+  background-color: #252626;
+}
+
+#favNews {
+  margin-top: 1vw;
+}
+
+@media (max-width: 480px) {
+  .gridNews {
+    grid-template-areas: "head head info" "pic pic info" "fav_bask fav_bask fav_bask";
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+  }
+  #News {
+    height: 57vw;
+  }
+  #favBaskNews {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    background-color: #1C1D1D;
+  }
+  #favNews, #baskNews {
+    border-radius: 1.5vw;
+    border: 0.7vw solid #21FEFE;
+    padding: 2vw;
+    background-color: #080909;
+  }
+}
+#favCheck {
+  display: none;
+}
+
+.fillstar, #nameFavFill {
+  display: none;
+}
+
+.notfill, #nameFavNofill {
+  display: inline;
+}
+
+#favCheck:checked ~ #favLabel .fillstar, #favCheck:checked ~ #favLabel #nameFavFill {
+  display: inline;
+}
+#favCheck:checked ~ #favLabel .notfill, #favCheck:checked ~ #favLabel #nameFavNofill {
+  display: none;
+}
+
+.product__btn:disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+#blockWithBestseller, #blockWithFree, #blockWithSales {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3vw;
+}
+
+#Best, #Free, #Sale {
+  width: 80vw;
+  height: 60vw;
+  border: 0.7vw solid #21FEFE;
+  border-radius: 4vw;
+  background-color: #1C1D1D;
+  color: white;
+  padding: 1vw;
+  text-align: center;
+}
+
+#GameName, #GameCost {
+  border-radius: 1.5vw;
+  color: #21FEFE;
+  background-color: #313131;
+  padding: 2% 0% 2% 0%;
+  text-align: center;
+}
+
+#GameName {
+  font-size: 2.7vw;
+  margin-bottom: 2%;
+  padding: 2% 0% 2% 0%;
+}
+
+#GameCost {
+  font-size: 2vw;
+}
+
+.gridBest, .gridSale, .gridFree {
+  display: grid;
+  grid-template-areas: "pic1 pic2 pic3 pic4 pic5 pic6" "InfoGame1 InfoGame2 InfoGame3 InfoGame4 InfoGame5 InfoGame6";
+  grid-template-columns: 28vw 28vw 28vw 28vw 28vw 28vw;
+  grid-template-rows: 3fr 1fr;
+  text-align: left;
+  grid-column-gap: 2vw;
+  overflow: scroll;
+  overflow-y: hidden;
+  height: 50vw;
+  padding-bottom: 2.2vw;
+}
+
+#Name_WatchAll {
+  padding-bottom: 2vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#Name_WatchAll div {
+  display: inline;
+}
+
+span {
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.img_for_basket {
+  display: none;
+}
+
+.stylePicture {
+  border-radius: 2vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40.5vw;
+  margin-bottom: 5%;
+  background-position: center;
+}
+
+#AtH_img {
+  background-image: url("../../../img of site/AtomicHeart.jpg");
+}
+
+#DL2_img {
+  background-image: url("../../../img of site/DyingLight2.jpg");
+}
+
+#GoW_img {
+  background-image: url("../../../img of site/God_of_War.jpg");
+}
+
+#GI_img {
+  background-image: url("../../../img of site/Genshin_Impact.jpg");
+}
+
+#D2_img {
+  background-image: url("../../../img of site/Dota_2.jpg");
+}
+
+#AL_img {
+  background-image: url("../../../img of site/Apex_Legends.jpg");
+}
+
+#REV_img {
+  background-image: url("../../../img of site/Resident_Evil_Village.jpg");
+}
+
+#O_img {
+  background-image: url("../../../img of site/Overcooked.jpg");
+}
+
+#I_img {
+  background-image: url("../../../img of site/Inscryption.jpg");
+}
+
+#DBD_img {
+  background-image: url("../../../img of site/Dead_By_Daylight.jpg");
+}
+
+#Rx_img {
+  background-image: url("../../../img of site/Roblox.jpg");
+}
+
+#PhPh_img {
+  background-image: url("../../../img of site/Phasmophobia.jpg");
+}
+
+#Terra_img {
+  background-image: url("../../../img of site/Terraria.jpg");
+}
+
+#TinyBunny_img {
+  background-image: url("../../../img of site/Tiny_Bunny.jpg");
+}
+
+#Overwatch_img {
+  background-image: url("../../../img of site/Overwatch.jpg");
+}
+
+#SlimeRancher_img {
+  background-image: url("../../../img of site/Slime_Rancher_2.jpg");
+}
+
+#FNAF_SB_img {
+  background-image: url("../../../img of site/FNAF_SB.jpg");
+}
+
+#RocketLeague_img {
+  background-image: url("../../../img of site/RocketLeague.jpg");
+}
+
+.blockButtons {
+  font-size: 2vw;
+  overflow: hidden;
+  width: 28vw;
+  height: 40.5vw;
+  border-radius: 2vw;
+  background-color: rgba(37, 38, 38, 0.7);
+  display: none;
+}
+.blockButtons #infoButton img, .blockButtons #baskButton img, .blockButtons #favButton img {
+  width: 3vw;
+  height: 3vw;
+}
+.blockButtons #infoButton, .blockButtons #baskButton, .blockButtons #favButton {
+  width: 22vw;
+  margin-left: 3vw;
+  border: 0.5vw double #21FEFE;
+  border-radius: 2vw;
+  padding: 1vw;
+  box-shadow: 0 0 10px #21FEFE;
+  margin-top: 5vw;
+  background-color: rgba(37, 38, 38, 0.95);
+  color: white;
+  font-size: 2vw;
+  cursor: pointer;
+}
+
+.stylePicture:hover .blockButtons {
+  display: block;
+}
+
+#favCheckButt, #BaskCheckButt,
+#favCheckButt1, #BaskCheckButt1,
+#favCheckButt2, #BaskCheckButt2,
+#favCheckButt3, #BaskCheckButt3,
+#favCheckButt4, #BaskCheckButt4,
+#favCheckButt5, #BaskCheckButt5,
+#favCheckButt6, #BaskCheckButt6,
+#favCheckButt7, #BaskCheckButt7,
+#favCheckButt8, #BaskCheckButt8,
+#favCheckButt9, #BaskCheckButt9,
+#favCheckButt10, #BaskCheckButt10,
+#favCheckButt11, #BaskCheckButt11,
+#favCheckButt12, #BaskCheckButt12,
+#favCheckButt13, #BaskCheckButt13,
+#favCheckButt14, #BaskCheckButt14,
+#favCheckButt15, #BaskCheckButt15,
+#favCheckButt16, #BaskCheckButt16,
+#favCheckButt17, #BaskCheckButt17 {
+  display: none;
+}
+
+.fillstarFav, #FavFill, .fillshopBask, #BaskFill {
+  display: none;
+}
+
+.notfillFav, #FavNofill, .notfillBask, #BaskNoFill {
+  display: inline;
+}
+
+#favCheckButt:checked ~ #favButtonCheck .fillstarFav, #favCheckButt:checked ~ #favButtonCheck #FavFill, #favCheckButt:checked ~ #favButtonCheck .fillshopBask, #favCheckButt:checked ~ #favButtonCheck #BaskFill, #BaskCheckButt:checked ~ #BaskButtonCheck .fillstarFav, #BaskCheckButt:checked ~ #BaskButtonCheck #FavFill, #BaskCheckButt:checked ~ #BaskButtonCheck .fillshopBask, #BaskCheckButt:checked ~ #BaskButtonCheck #BaskFill,
+#favCheckButt1:checked ~ #favButtonCheck .fillstarFav,
+#favCheckButt1:checked ~ #favButtonCheck #FavFill,
+#favCheckButt1:checked ~ #favButtonCheck .fillshopBask,
+#favCheckButt1:checked ~ #favButtonCheck #BaskFill, #BaskCheckButt1:checked ~ #BaskButtonCheck .fillstarFav, #BaskCheckButt1:checked ~ #BaskButtonCheck #FavFill, #BaskCheckButt1:checked ~ #BaskButtonCheck .fillshopBask, #BaskCheckButt1:checked ~ #BaskButtonCheck #BaskFill,
+#favCheckButt2:checked ~ #favButtonCheck .fillstarFav,
+#favCheckButt2:checked ~ #favButtonCheck #FavFill,
+#favCheckButt2:checked ~ #favButtonCheck .fillshopBask,
+#favCheckButt2:checked ~ #favButtonCheck #BaskFill, #BaskCheckButt2:checked ~ #BaskButtonCheck .fillstarFav, #BaskCheckButt2:checked ~ #BaskButtonCheck #FavFill, #BaskCheckButt2:checked ~ #BaskButtonCheck .fillshopBask, #BaskCheckButt2:checked ~ #BaskButtonCheck #BaskFill,
+#favCheckButt3:checked ~ #favButtonCheck .fillstarFav,
+#favCheckButt3:checked ~ #favButtonCheck #FavFill,
+#favCheckButt3:checked ~ #favButtonCheck .fillshopBask,
+#favCheckButt3:checked ~ #favButtonCheck #BaskFill, #BaskCheckButt3:checked ~ #BaskButtonCheck .fillstarFav, #BaskCheckButt3:checked ~ #BaskButtonCheck #FavFill, #BaskCheckButt3:checked ~ #BaskButtonCheck .fillshopBask, #BaskCheckButt3:checked ~ #BaskButtonCheck #BaskFill,
+#favCheckButt4:checked ~ #favButtonCheck .fillstarFav,
+#favCheckButt4:checked ~ #favButtonCheck #FavFill,
+#favCheckButt4:checked ~ #favButtonCheck .fillshopBask,
+#favCheckButt4:checked ~ #favButtonCheck #BaskFill, #BaskCheckButt4:checked ~ #BaskButtonCheck .fillstarFav, #BaskCheckButt4:checked ~ #BaskButtonCheck #FavFill, #BaskCheckButt4:checked ~ #BaskButtonCheck .fillshopBask, #BaskCheckButt4:checked ~ #BaskButtonCheck #BaskFill,
+#favCheckButt5:checked ~ #favButtonCheck .fillstarFav,
+#favCheckButt5:checked ~ #favButtonCheck #FavFill,
+#favCheckButt5:checked ~ #favButtonCheck .fillshopBask,
+#favCheckButt5:checked ~ #favButtonCheck #BaskFill, #BaskCheckButt5:checked ~ #BaskButtonCheck .fillstarFav, #BaskCheckButt5:checked ~ #BaskButtonCheck #FavFill, #BaskCheckButt5:checked ~ #BaskButtonCheck .fillshopBask, #BaskCheckButt5:checked ~ #BaskButtonCheck #BaskFill,
+#favCheckButt6:checked ~ #favButtonCheck .fillstarFav,
+#favCheckButt6:checked ~ #favButtonCheck #FavFill,
+#favCheckButt6:checked ~ #favButtonCheck .fillshopBask,
+#favCheckButt6:checked ~ #favButtonCheck #BaskFill, #BaskCheckButt6:checked ~ #BaskButtonCheck .fillstarFav, #BaskCheckButt6:checked ~ #BaskButtonCheck #FavFill, #BaskCheckButt6:checked ~ #BaskButtonCheck .fillshopBask, #BaskCheckButt6:checked ~ #BaskButtonCheck #BaskFill,
+#favCheckButt7:checked ~ #favButtonCheck .fillstarFav,
+#favCheckButt7:checked ~ #favButtonCheck #FavFill,
+#favCheckButt7:checked ~ #favButtonCheck .fillshopBask,
+#favCheckButt7:checked ~ #favButtonCheck #BaskFill, #BaskCheckButt7:checked ~ #BaskButtonCheck .fillstarFav, #BaskCheckButt7:checked ~ #BaskButtonCheck #FavFill, #BaskCheckButt7:checked ~ #BaskButtonCheck .fillshopBask, #BaskCheckButt7:checked ~ #BaskButtonCheck #BaskFill,
+#favCheckButt8:checked ~ #favButtonCheck .fillstarFav,
+#favCheckButt8:checked ~ #favButtonCheck #FavFill,
+#favCheckButt8:checked ~ #favButtonCheck .fillshopBask,
+#favCheckButt8:checked ~ #favButtonCheck #BaskFill, #BaskCheckButt8:checked ~ #BaskButtonCheck .fillstarFav, #BaskCheckButt8:checked ~ #BaskButtonCheck #FavFill, #BaskCheckButt8:checked ~ #BaskButtonCheck .fillshopBask, #BaskCheckButt8:checked ~ #BaskButtonCheck #BaskFill,
+#favCheckButt9:checked ~ #favButtonCheck .fillstarFav,
+#favCheckButt9:checked ~ #favButtonCheck #FavFill,
+#favCheckButt9:checked ~ #favButtonCheck .fillshopBask,
+#favCheckButt9:checked ~ #favButtonCheck #BaskFill, #BaskCheckButt9:checked ~ #BaskButtonCheck .fillstarFav, #BaskCheckButt9:checked ~ #BaskButtonCheck #FavFill, #BaskCheckButt9:checked ~ #BaskButtonCheck .fillshopBask, #BaskCheckButt9:checked ~ #BaskButtonCheck #BaskFill,
+#favCheckButt10:checked ~ #favButtonCheck .fillstarFav,
+#favCheckButt10:checked ~ #favButtonCheck #FavFill,
+#favCheckButt10:checked ~ #favButtonCheck .fillshopBask,
+#favCheckButt10:checked ~ #favButtonCheck #BaskFill, #BaskCheckButt10:checked ~ #BaskButtonCheck .fillstarFav, #BaskCheckButt10:checked ~ #BaskButtonCheck #FavFill, #BaskCheckButt10:checked ~ #BaskButtonCheck .fillshopBask, #BaskCheckButt10:checked ~ #BaskButtonCheck #BaskFill,
+#favCheckButt11:checked ~ #favButtonCheck .fillstarFav,
+#favCheckButt11:checked ~ #favButtonCheck #FavFill,
+#favCheckButt11:checked ~ #favButtonCheck .fillshopBask,
+#favCheckButt11:checked ~ #favButtonCheck #BaskFill, #BaskCheckButt11:checked ~ #BaskButtonCheck .fillstarFav, #BaskCheckButt11:checked ~ #BaskButtonCheck #FavFill, #BaskCheckButt11:checked ~ #BaskButtonCheck .fillshopBask, #BaskCheckButt11:checked ~ #BaskButtonCheck #BaskFill,
+#favCheckButt12:checked ~ #favButtonCheck .fillstarFav,
+#favCheckButt12:checked ~ #favButtonCheck #FavFill,
+#favCheckButt12:checked ~ #favButtonCheck .fillshopBask,
+#favCheckButt12:checked ~ #favButtonCheck #BaskFill, #BaskCheckButt12:checked ~ #BaskButtonCheck .fillstarFav, #BaskCheckButt12:checked ~ #BaskButtonCheck #FavFill, #BaskCheckButt12:checked ~ #BaskButtonCheck .fillshopBask, #BaskCheckButt12:checked ~ #BaskButtonCheck #BaskFill,
+#favCheckButt13:checked ~ #favButtonCheck .fillstarFav,
+#favCheckButt13:checked ~ #favButtonCheck #FavFill,
+#favCheckButt13:checked ~ #favButtonCheck .fillshopBask,
+#favCheckButt13:checked ~ #favButtonCheck #BaskFill, #BaskCheckButt13:checked ~ #BaskButtonCheck .fillstarFav, #BaskCheckButt13:checked ~ #BaskButtonCheck #FavFill, #BaskCheckButt13:checked ~ #BaskButtonCheck .fillshopBask, #BaskCheckButt13:checked ~ #BaskButtonCheck #BaskFill,
+#favCheckButt14:checked ~ #favButtonCheck .fillstarFav,
+#favCheckButt14:checked ~ #favButtonCheck #FavFill,
+#favCheckButt14:checked ~ #favButtonCheck .fillshopBask,
+#favCheckButt14:checked ~ #favButtonCheck #BaskFill, #BaskCheckButt14:checked ~ #BaskButtonCheck .fillstarFav, #BaskCheckButt14:checked ~ #BaskButtonCheck #FavFill, #BaskCheckButt14:checked ~ #BaskButtonCheck .fillshopBask, #BaskCheckButt14:checked ~ #BaskButtonCheck #BaskFill,
+#favCheckButt15:checked ~ #favButtonCheck .fillstarFav,
+#favCheckButt15:checked ~ #favButtonCheck #FavFill,
+#favCheckButt15:checked ~ #favButtonCheck .fillshopBask,
+#favCheckButt15:checked ~ #favButtonCheck #BaskFill, #BaskCheckButt15:checked ~ #BaskButtonCheck .fillstarFav, #BaskCheckButt15:checked ~ #BaskButtonCheck #FavFill, #BaskCheckButt15:checked ~ #BaskButtonCheck .fillshopBask, #BaskCheckButt15:checked ~ #BaskButtonCheck #BaskFill,
+#favCheckButt16:checked ~ #favButtonCheck .fillstarFav,
+#favCheckButt16:checked ~ #favButtonCheck #FavFill,
+#favCheckButt16:checked ~ #favButtonCheck .fillshopBask,
+#favCheckButt16:checked ~ #favButtonCheck #BaskFill, #BaskCheckButt16:checked ~ #BaskButtonCheck .fillstarFav, #BaskCheckButt16:checked ~ #BaskButtonCheck #FavFill, #BaskCheckButt16:checked ~ #BaskButtonCheck .fillshopBask, #BaskCheckButt16:checked ~ #BaskButtonCheck #BaskFill,
+#favCheckButt17:checked ~ #favButtonCheck #BaskCheckButt17:checked ~ #BaskButtonCheck .fillstarFav,
+#favCheckButt17:checked ~ #favButtonCheck #BaskCheckButt17:checked ~ #BaskButtonCheck #FavFill,
+#favCheckButt17:checked ~ #favButtonCheck #BaskCheckButt17:checked ~ #BaskButtonCheck .fillshopBask,
+#favCheckButt17:checked ~ #favButtonCheck #BaskCheckButt17:checked ~ #BaskButtonCheck #BaskFill {
+  display: inline;
+}
+#favCheckButt:checked ~ #favButtonCheck .notfillFav, #favCheckButt:checked ~ #favButtonCheck #FavNofill, #favCheckButt:checked ~ #favButtonCheck .notfillBask, #favCheckButt:checked ~ #favButtonCheck #BaskNofill, #BaskCheckButt:checked ~ #BaskButtonCheck .notfillFav, #BaskCheckButt:checked ~ #BaskButtonCheck #FavNofill, #BaskCheckButt:checked ~ #BaskButtonCheck .notfillBask, #BaskCheckButt:checked ~ #BaskButtonCheck #BaskNofill,
+#favCheckButt1:checked ~ #favButtonCheck .notfillFav,
+#favCheckButt1:checked ~ #favButtonCheck #FavNofill,
+#favCheckButt1:checked ~ #favButtonCheck .notfillBask,
+#favCheckButt1:checked ~ #favButtonCheck #BaskNofill, #BaskCheckButt1:checked ~ #BaskButtonCheck .notfillFav, #BaskCheckButt1:checked ~ #BaskButtonCheck #FavNofill, #BaskCheckButt1:checked ~ #BaskButtonCheck .notfillBask, #BaskCheckButt1:checked ~ #BaskButtonCheck #BaskNofill,
+#favCheckButt2:checked ~ #favButtonCheck .notfillFav,
+#favCheckButt2:checked ~ #favButtonCheck #FavNofill,
+#favCheckButt2:checked ~ #favButtonCheck .notfillBask,
+#favCheckButt2:checked ~ #favButtonCheck #BaskNofill, #BaskCheckButt2:checked ~ #BaskButtonCheck .notfillFav, #BaskCheckButt2:checked ~ #BaskButtonCheck #FavNofill, #BaskCheckButt2:checked ~ #BaskButtonCheck .notfillBask, #BaskCheckButt2:checked ~ #BaskButtonCheck #BaskNofill,
+#favCheckButt3:checked ~ #favButtonCheck .notfillFav,
+#favCheckButt3:checked ~ #favButtonCheck #FavNofill,
+#favCheckButt3:checked ~ #favButtonCheck .notfillBask,
+#favCheckButt3:checked ~ #favButtonCheck #BaskNofill, #BaskCheckButt3:checked ~ #BaskButtonCheck .notfillFav, #BaskCheckButt3:checked ~ #BaskButtonCheck #FavNofill, #BaskCheckButt3:checked ~ #BaskButtonCheck .notfillBask, #BaskCheckButt3:checked ~ #BaskButtonCheck #BaskNofill,
+#favCheckButt4:checked ~ #favButtonCheck .notfillFav,
+#favCheckButt4:checked ~ #favButtonCheck #FavNofill,
+#favCheckButt4:checked ~ #favButtonCheck .notfillBask,
+#favCheckButt4:checked ~ #favButtonCheck #BaskNofill, #BaskCheckButt4:checked ~ #BaskButtonCheck .notfillFav, #BaskCheckButt4:checked ~ #BaskButtonCheck #FavNofill, #BaskCheckButt4:checked ~ #BaskButtonCheck .notfillBask, #BaskCheckButt4:checked ~ #BaskButtonCheck #BaskNofill,
+#favCheckButt5:checked ~ #favButtonCheck .notfillFav,
+#favCheckButt5:checked ~ #favButtonCheck #FavNofill,
+#favCheckButt5:checked ~ #favButtonCheck .notfillBask,
+#favCheckButt5:checked ~ #favButtonCheck #BaskNofill, #BaskCheckButt5:checked ~ #BaskButtonCheck .notfillFav, #BaskCheckButt5:checked ~ #BaskButtonCheck #FavNofill, #BaskCheckButt5:checked ~ #BaskButtonCheck .notfillBask, #BaskCheckButt5:checked ~ #BaskButtonCheck #BaskNofill,
+#favCheckButt6:checked ~ #favButtonCheck .notfillFav,
+#favCheckButt6:checked ~ #favButtonCheck #FavNofill,
+#favCheckButt6:checked ~ #favButtonCheck .notfillBask,
+#favCheckButt6:checked ~ #favButtonCheck #BaskNofill, #BaskCheckButt6:checked ~ #BaskButtonCheck .notfillFav, #BaskCheckButt6:checked ~ #BaskButtonCheck #FavNofill, #BaskCheckButt6:checked ~ #BaskButtonCheck .notfillBask, #BaskCheckButt6:checked ~ #BaskButtonCheck #BaskNofill,
+#favCheckButt7:checked ~ #favButtonCheck .notfillFav,
+#favCheckButt7:checked ~ #favButtonCheck #FavNofill,
+#favCheckButt7:checked ~ #favButtonCheck .notfillBask,
+#favCheckButt7:checked ~ #favButtonCheck #BaskNofill, #BaskCheckButt7:checked ~ #BaskButtonCheck .notfillFav, #BaskCheckButt7:checked ~ #BaskButtonCheck #FavNofill, #BaskCheckButt7:checked ~ #BaskButtonCheck .notfillBask, #BaskCheckButt7:checked ~ #BaskButtonCheck #BaskNofill,
+#favCheckButt8:checked ~ #favButtonCheck .notfillFav,
+#favCheckButt8:checked ~ #favButtonCheck #FavNofill,
+#favCheckButt8:checked ~ #favButtonCheck .notfillBask,
+#favCheckButt8:checked ~ #favButtonCheck #BaskNofill, #BaskCheckButt8:checked ~ #BaskButtonCheck .notfillFav, #BaskCheckButt8:checked ~ #BaskButtonCheck #FavNofill, #BaskCheckButt8:checked ~ #BaskButtonCheck .notfillBask, #BaskCheckButt8:checked ~ #BaskButtonCheck #BaskNofill,
+#favCheckButt9:checked ~ #favButtonCheck .notfillFav,
+#favCheckButt9:checked ~ #favButtonCheck #FavNofill,
+#favCheckButt9:checked ~ #favButtonCheck .notfillBask,
+#favCheckButt9:checked ~ #favButtonCheck #BaskNofill, #BaskCheckButt9:checked ~ #BaskButtonCheck .notfillFav, #BaskCheckButt9:checked ~ #BaskButtonCheck #FavNofill, #BaskCheckButt9:checked ~ #BaskButtonCheck .notfillBask, #BaskCheckButt9:checked ~ #BaskButtonCheck #BaskNofill,
+#favCheckButt10:checked ~ #favButtonCheck .notfillFav,
+#favCheckButt10:checked ~ #favButtonCheck #FavNofill,
+#favCheckButt10:checked ~ #favButtonCheck .notfillBask,
+#favCheckButt10:checked ~ #favButtonCheck #BaskNofill, #BaskCheckButt10:checked ~ #BaskButtonCheck .notfillFav, #BaskCheckButt10:checked ~ #BaskButtonCheck #FavNofill, #BaskCheckButt10:checked ~ #BaskButtonCheck .notfillBask, #BaskCheckButt10:checked ~ #BaskButtonCheck #BaskNofill,
+#favCheckButt11:checked ~ #favButtonCheck .notfillFav,
+#favCheckButt11:checked ~ #favButtonCheck #FavNofill,
+#favCheckButt11:checked ~ #favButtonCheck .notfillBask,
+#favCheckButt11:checked ~ #favButtonCheck #BaskNofill, #BaskCheckButt11:checked ~ #BaskButtonCheck .notfillFav, #BaskCheckButt11:checked ~ #BaskButtonCheck #FavNofill, #BaskCheckButt11:checked ~ #BaskButtonCheck .notfillBask, #BaskCheckButt11:checked ~ #BaskButtonCheck #BaskNofill,
+#favCheckButt12:checked ~ #favButtonCheck .notfillFav,
+#favCheckButt12:checked ~ #favButtonCheck #FavNofill,
+#favCheckButt12:checked ~ #favButtonCheck .notfillBask,
+#favCheckButt12:checked ~ #favButtonCheck #BaskNofill, #BaskCheckButt12:checked ~ #BaskButtonCheck .notfillFav, #BaskCheckButt12:checked ~ #BaskButtonCheck #FavNofill, #BaskCheckButt12:checked ~ #BaskButtonCheck .notfillBask, #BaskCheckButt12:checked ~ #BaskButtonCheck #BaskNofill,
+#favCheckButt13:checked ~ #favButtonCheck .notfillFav,
+#favCheckButt13:checked ~ #favButtonCheck #FavNofill,
+#favCheckButt13:checked ~ #favButtonCheck .notfillBask,
+#favCheckButt13:checked ~ #favButtonCheck #BaskNofill, #BaskCheckButt13:checked ~ #BaskButtonCheck .notfillFav, #BaskCheckButt13:checked ~ #BaskButtonCheck #FavNofill, #BaskCheckButt13:checked ~ #BaskButtonCheck .notfillBask, #BaskCheckButt13:checked ~ #BaskButtonCheck #BaskNofill,
+#favCheckButt14:checked ~ #favButtonCheck .notfillFav,
+#favCheckButt14:checked ~ #favButtonCheck #FavNofill,
+#favCheckButt14:checked ~ #favButtonCheck .notfillBask,
+#favCheckButt14:checked ~ #favButtonCheck #BaskNofill, #BaskCheckButt14:checked ~ #BaskButtonCheck .notfillFav, #BaskCheckButt14:checked ~ #BaskButtonCheck #FavNofill, #BaskCheckButt14:checked ~ #BaskButtonCheck .notfillBask, #BaskCheckButt14:checked ~ #BaskButtonCheck #BaskNofill,
+#favCheckButt15:checked ~ #favButtonCheck .notfillFav,
+#favCheckButt15:checked ~ #favButtonCheck #FavNofill,
+#favCheckButt15:checked ~ #favButtonCheck .notfillBask,
+#favCheckButt15:checked ~ #favButtonCheck #BaskNofill, #BaskCheckButt15:checked ~ #BaskButtonCheck .notfillFav, #BaskCheckButt15:checked ~ #BaskButtonCheck #FavNofill, #BaskCheckButt15:checked ~ #BaskButtonCheck .notfillBask, #BaskCheckButt15:checked ~ #BaskButtonCheck #BaskNofill,
+#favCheckButt16:checked ~ #favButtonCheck .notfillFav,
+#favCheckButt16:checked ~ #favButtonCheck #FavNofill,
+#favCheckButt16:checked ~ #favButtonCheck .notfillBask,
+#favCheckButt16:checked ~ #favButtonCheck #BaskNofill, #BaskCheckButt16:checked ~ #BaskButtonCheck .notfillFav, #BaskCheckButt16:checked ~ #BaskButtonCheck #FavNofill, #BaskCheckButt16:checked ~ #BaskButtonCheck .notfillBask, #BaskCheckButt16:checked ~ #BaskButtonCheck #BaskNofill,
+#favCheckButt17:checked ~ #favButtonCheck #BaskCheckButt17:checked ~ #BaskButtonCheck .notfillFav,
+#favCheckButt17:checked ~ #favButtonCheck #BaskCheckButt17:checked ~ #BaskButtonCheck #FavNofill,
+#favCheckButt17:checked ~ #favButtonCheck #BaskCheckButt17:checked ~ #BaskButtonCheck .notfillBask,
+#favCheckButt17:checked ~ #favButtonCheck #BaskCheckButt17:checked ~ #BaskButtonCheck #BaskNofill {
+  display: none;
+}
+
+#onTop {
+  display: inline-block;
+  border-radius: 500px;
+  background-color: #252626;
+  z-index: 20;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 3vw;
+}
+#onTop img {
+  height: 6vw;
+  width: 6vw;
+  transform: rotate(90deg);
+}
+
+#footer {
+  color: #21FEFE;
+  background-color: #1C1D1D;
+  border-radius: 2vw;
+  display: grid;
+  grid-template-areas: "partner community" "services company";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  font-size: 2.7vw;
+  padding: 5% 5% 0% 5%;
+}
+#footer a {
+  text-decoration: none;
+  color: rgba(33, 254, 254, 0.58);
+  line-height: 150%;
+}
+
+::-webkit-scrollbar {
+  height: 1vw;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: 0 0 2vw grey;
+  border-radius: 5vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #21FEFE;
+  border-radius: 5vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(33, 254, 254, 0.58);
+}
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(14, 17, 31);
+}
+
+#preloader.hide-preloader {
+  animation: hidePreloader 1s;
+}
+
+#preloader.preloader-hidden {
+  display: none;
+}
+
+@keyframes hidePreloader {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.slider__container {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+}
+
+.slider__container .slider-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: all ease 1s;
+}
+
+.slider__control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slider__control-item:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.slider__dots {
+  width: 100%;
+  position: absolute;
+  align-self: flex-end;
+  display: inline-flex;
+  justify-content: center;
+  bottom: 0;
+}
+
+.slider__dots-item {
+  width: 2vw;
+  height: 2vw;
+  border-radius: 100%;
+  background-color: #fff;
+  margin: 2.2vw 1vw;
+}
+
+.slider__dots-item:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.slider__dots-item.active {
+  background-color: gray;
+}
+
+/* fade off */
+.slider__container .content.fade-off {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  height: 100%;
+  transition: all 2s ease;
+}
+
+.slider__container .slider-item.fade-off {
+  position: static;
+}/*# sourceMappingURL=stylesMain.css.map */

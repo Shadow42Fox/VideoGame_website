@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>GFM - Game Favour Market</title>
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../simplebar.css">
+    <link href="css/stylesMain.css" rel="stylesheet" media="all">
+</head>
+<body>
+    <div id="main_border">
+
+        <header>
+            <div id="blockOfMainInfo" name="top">
+                <div id="logo"><a class="menu_item"><img src="../../creation logo/logo.svg" style="width: 19vw;"></a></div>
+                <div><a class="menu_item"  href="../main/main_page.html" style="text-decoration: none;"><img id="mag_logo" src="../../icons/shop_bag.svg"><div>МАГАЗИН</div></a></div>
+                <div><a class="menu_item" href="../FAQ/faq.html"><img id="faq_logo" src="../../icons/question.svg"><div>ЧАВО</div></a></div>
+                <div><a class="menu_item" href="../FAQ/faq.html"><img id="ref_logo" src="../../icons/list.svg"><div>СПРАВКА</div></a></div>
+                <div id="profile">
+                    <label class="menu_item" for="menuCheck"><img id="pers_logo" src="../../icons/avatar.svg"><div>ЛИЧНЫЙ<br>КАБИНЕТ</div></label>
+                    <input type="checkbox" id="menuCheck" name="menuCheck">
+                    <div class="profileMenu">
+                        <div id="regButt">
+                            <label id="regLog" for="regLogField"><div style="display: inline;"><img src="../../icons/user.svg"></div>РЕГИСТРАЦИЯ/ВХОД</label>
+                            <input type="checkbox" id="regLogField" name="regLogField">
+                            <div class="regist_login">
+
+
+                                <form>
+                                    <div class="Table">
+                                        <div class="nameTable">Никнейм:</div>
+                                        <input class="buttTable" placeholder="type here" type="text" required>
+                                    </div>
+                                    <div class="Table">
+                                        <div class="nameTable">Email:</div>
+                                        <input class="buttTable" placeholder="must include @ and ." type="email" required>
+                                    </div>
+                                    <div class="Table">
+                                        <div class="nameTable">Пароль:</div>
+                                        <input class="buttTable" type="password" required>
+                                    </div>
+                                    <div id="RegDelBlock">
+                                        <input class="buttRegDel" value="Регистрация" type="submit">
+                                        <input class="buttRegDel" value="Отмена" type="reset">
+                                    </div>
+                                </form>
+
+
+                            </div>
+                        </div>
+                        <div id="baskField" class="cart" tabindex="0">
+                            <div id="NameBusketBlock" ><div style="display: inline;"><img src="../../icons/shop.svg"></div>КОРЗИНА:<div class="cart__quantity">0</div></div>
+                            <div id="itemsBusket" class="cart-content__list" data-simplebar>
+                                <!--
+                                <div class="for_bsk_del">
+                                    <div id="itemOfBusket">
+                                        <img id="pictBusketItem" style="grid-area: photo;" src="../../img of site/Apex_Legends.jpg">
+                                        <div id="nameBuskItem" style="grid-area: nameOfItem;"> Apex Legends</div>
+                                        <div id="costBuskItem" style="grid-area: costOfItem;">Бесплатно</div> 
+                                        <div style="grid-area: Trash;"><img src="../../icons/trash.svg"></div>
+                                    </div>
+                                </div>
+                                -->
+                            </div>
+                            <div id="baskBuyPriceBlock">
+                                <div id="fullPriceBlock">
+                                    <div>Итого:</div>
+                                    <div class="fullprice" id="fullprice">0$</div>
+                                </div>
+                                <div id="baskBuyBlock"><input type="reset" value="Купить" class="buttBaskBuy" onClick="window.location.reload();"></div>
+                            </div>
+                        </div>
+                        <div id="favField" class="favor" tabindex="0">
+                            <div style="display: inline;"><img src="../../icons/star.svg"></div>ИЗБРАННОЕ:</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header" id="header">
+                <div id="search"><img id="search_logo" src="../../icons/search.svg"><div style="color: rgba(33, 254, 254, 0.58); font-size: 1.7vw; display: inline;">Искать в магазине</div></div>
+                <a href="main_page.html"><div>Главная</div></a>
+                <div>Новости</div>
+                <div>Скидки</div>
+                <a href="../All games/AllGames.html"><div>Все игры</div></a>
+                <div id="logo2"><a href="main_page.html"><img src="../../creation logo/logo.svg" style="width: 11vw; alt: logotype;"></a></div>
+            </div>
+        </header>
+
+
+        <div id="onTop"><a href="#top"><img src="../../icons/toLeft.svg"></a></div>
+
+        <!--      News       -->
+        <!--Flexbox-->
+        <div id="blockWithNews">
+            <div class="toLeft slider__control-item prev">
+                <img src="../../icons/toLeft.svg">
+            </div>
+            <div id="News" class="gridNews">
+                <!--Grid-->
+                <div id="headNews" style="grid-area: head">Последние новости:</div>
+                <div id="news_img" style="grid-area: pic;" class="slider__container"> 
+                    <div class="content">  
+                        <img class="slider-item" src="../../img of site/Rocket_League.jpg">
+                        <img class="slider-item" src="../../img of site/Dota_2.jpg">
+                        <img class="slider-item" src="../../img of site/Apex_Legends.jpg">
+                    </div>
+
+                    <div class="slider__control">
+                    </div>
+                      <div class="slider__dots"></div>
+                </div>
+                <div id="infoNews" style="grid-area: info; padding-top: 2vw;">Десятый сезон Rocket league уже тут, спешите влететь в игру с новыми вещами и событиями!</div>
+                <div id="favBaskNews" style="grid-area: fav_bask">
+                    <div id="baskNews"><div><img src="../../icons/shop.svg" ></div> В КОРЗИНУ</div>
+                   <input type="checkbox" id="favCheck" name="favCheck"><label for="favCheck" id="favLabel"><div id="favNews"><div><img class="fillstar" src="../../icons/star_fill.svg" alt="fill star"><img class="notfill" src="../../icons/star.svg" alt="no fill star"></label></div><div id="nameFavNofill">В ИЗБРАННОЕ</div><div id="nameFavFill">В ИЗБРАННОМ</div></div>
+                </div>
+            </div>
+            <div class="toRight slider__control-item next">
+                <img src="../../icons/toRight.svg">
+            </div>
+        </div>
+
+
+        <!--      Best       -->
+        <!--Flexbox-->
+        <div id="blockWithBestseller">
+            <div id="Best">
+                <!--Grid-->
+                <div id="Name_WatchAll">
+                    <div id="NameOfList">Хит Продаж:</div>
+                    <div id="WatchAllGames">Посмотреть все ></div>
+                </div>
+                <div class="gridBest">
+                    <div class="game">
+                        <div class="stylePicture" id="AtH_img" style="grid-area: pic1;"><div class="img_for_basket"><img  src="../../img of site/AtomicHeart.jpg"></div>
+                            <div class="blockButtons">
+                                <button id="infoButton"><a href="../own pages/gamePage.html#AtomicHeart"><div style="display: inline;"><img src="../../icons/star.svg"></div> ПОДРОБНЕЕ ОБ</a></button>
+                                <button class="product__btn" id="baskButton"><input type="checkbox" id="BaskCheckButt" name="BaskCheckButt"><label for="BaskCheckButt" id="BaskButtonCheck"><div style="display: inline;"><img class="fillshopBask" src="../../icons/shop_fill.svg" alt="fill shop"><img class="notfillBask" src="../../icons/shop.svg" alt="no fill shop"></div><div id="BaskNofill">В КОРЗИНУ</div><div id="BaskFill">В КОРЗИНЕ</div></label></button>
+                                <button id="favButton"><input type="checkbox" id="favCheckButt" name="favCheckButt"><label for="favCheckButt" id="favButtonCheck"><div style="display: inline;"><img class="fillstarFav" src="../../icons/star_fill.svg" alt="fill star"><img class="notfillFav" src="../../icons/star.svg" alt="no fill star"></div><div id="FavNofill">В ИЗБРАННОЕ</div><div id="FavFill">В ИЗБРАННОМ</div></label></button>
+                            </div>
+                        </div>
+                        <div style="grid-area: InfoGame1">
+                            <div id="GameName">Atomic Heart</div>
+                            <div id="GameCost"><div class="text_cost">49.99$</div><div class="for_bsk">49.99</div></div>
+                        </div>
+                    </div>
+                    <div class="game">
+                        <div class="stylePicture" id="DL2_img" style="grid-area: pic2;"><div class="img_for_basket"><img  src="../../img of site/DyingLight2.jpg"></div>
+                            <div class="blockButtons">
+                                <button id="infoButton"><a href="../own pages/gamePage.html#DyingLight2"><div style="display: inline;"><img src="../../icons/star.svg"></div> ПОДРОБНЕЕ ОБ</a></button>
+                                <button class="product__btn" id="baskButton"><input type="checkbox" id="BaskCheckButt1" name="BaskCheckButt"><label for="BaskCheckButt1" id="BaskButtonCheck"><div style="display: inline;"><img class="fillshopBask" src="../../icons/shop_fill.svg" alt="fill shop"><img class="notfillBask" src="../../icons/shop.svg" alt="no fill shop"></div><div id="BaskNofill">В КОРЗИНУ</div><div id="BaskFill">В КОРЗИНЕ</div></label></button>
+                                <button id="favButton"><input type="checkbox" id="favCheckButt1" name="favCheckButt"><label for="favCheckButt1" id="favButtonCheck"><div style="display: inline;"><img class="fillstarFav" src="../../icons/star_fill.svg" alt="fill star"><img class="notfillFav" src="../../icons/star.svg" alt="no fill star"></div><div id="FavNofill">В ИЗБРАННОЕ</div><div id="FavFill">В ИЗБРАННОМ</div></label></button>
+                            </div>
+                        </div>
+                        <div style="grid-area: InfoGame2">
+                            <div id="GameName">Dying Light 2</div>
+                            <div id="GameCost"><div class="text_cost">49.99$</div><div class="for_bsk">49.99$</div></div>
+                        </div>
+                    </div>
+                    <div class="game">
+                        <div class="stylePicture" id="GoW_img" style="grid-area: pic3;"><div class="img_for_basket"><img  src="../../img of site/God_of_War.jpg"></div>
+                            <div class="blockButtons">
+                                <button id="infoButton"><a href="../own pages/../own pages/gamePage.html#GoW:Ragnarec"><div style="display: inline;"><img src="../../icons/star.svg"></div> ПОДРОБНЕЕ ОБ</a></button>
+                                <button class="product__btn" id="baskButton"><input type="checkbox" id="BaskCheckButt2" name="BaskCheckButt"><label for="BaskCheckButt2" id="BaskButtonCheck"><div style="display: inline;"><img class="fillshopBask" src="../../icons/shop_fill.svg" alt="fill shop"><img class="notfillBask" src="../../icons/shop.svg" alt="no fill shop"></div><div id="BaskNofill">В КОРЗИНУ</div><div id="BaskFill">В КОРЗИНЕ</div></label></button>
+                                <button id="favButton"><input type="checkbox" id="favCheckButt2" name="favCheckButt"><label for="favCheckButt2" id="favButtonCheck"><div style="display: inline;"><img class="fillstarFav" src="../../icons/star_fill.svg" alt="fill star"><img class="notfillFav" src="../../icons/star.svg" alt="no fill star"></div><div id="FavNofill">В ИЗБРАННОЕ</div><div id="FavFill">В ИЗБРАННОМ</div></label></button>
+                            </div>
+                        </div>
+                        <div style="grid-area: InfoGame3">
+                            <div id="GameName">God of War: Ragnarec</div>
+                            <div id="GameCost"><div class="text_cost">49.99$</div><div class="for_bsk">49.99$</div></div>
+                        </div>
+                    </div>
+                    <div class="game">
+                        <div class="stylePicture" id="DBD_img" style="grid-area: pic4;"><div class="img_for_basket"><img  src="../../img of site/Dead_by_Daylight.jpg"></div>
+                            <div class="blockButtons">
+                                <button id="infoButton"><a href="../own pages/gamePage.html#DeadByDaylight"><div style="display: inline;"><img src="../../icons/star.svg"></div> ПОДРОБНЕЕ ОБ</a></button>
+                                <button class="product__btn" id="baskButton"><input type="checkbox" id="BaskCheckButt3" name="BaskCheckButt"><label for="BaskCheckButt3" id="BaskButtonCheck"><div style="display: inline;"><img class="fillshopBask" src="../../icons/shop_fill.svg" alt="fill shop"><img class="notfillBask" src="../../icons/shop.svg" alt="no fill shop"></div><div id="BaskNofill">В КОРЗИНУ</div><div id="BaskFill">В КОРЗИНЕ</div></label></button>
+                                <button id="favButton"><input type="checkbox" id="favCheckButt3" name="favCheckButt"><label for="favCheckButt3" id="favButtonCheck"><div style="display: inline;"><img class="fillstarFav" src="../../icons/star_fill.svg" alt="fill star"><img class="notfillFav" src="../../icons/star.svg" alt="no fill star"></div><div id="FavNofill">В ИЗБРАННОЕ</div><div id="FavFill">В ИЗБРАННОМ</div></label></button>
+                            </div>
+                        </div>
+                        <div style="grid-area: InfoGame4">
+                            <div id="GameName">Dead By Daylight</div>
+                            <div id="GameCost"><div class="text_cost">19.99$</div><div class="for_bsk">19.99$</div></div>
+                        </div>
+                    </div>
+                    <div class="game">
+                        <div class="stylePicture" id="PhPh_img" style="grid-area: pic5;"><div class="img_for_basket"><img  src="../../img of site/Phasmophobia.jpg"></div>
+                            <div class="blockButtons">
+                                <button id="infoButton"><a href="../own pages/gamePage.html#Phasmophobia"><div style="display: inline;"><img src="../../icons/star.svg"></div> ПОДРОБНЕЕ ОБ</a></button>
+                                <button class="product__btn" id="baskButton"><input type="checkbox" id="BaskCheckButt4" name="BaskCheckButt"><label for="BaskCheckButt4" id="BaskButtonCheck"><div style="display: inline;"><img class="fillshopBask" src="../../icons/shop_fill.svg" alt="fill shop"><img class="notfillBask" src="../../icons/shop.svg" alt="no fill shop"></div><div id="BaskNofill">В КОРЗИНУ</div><div id="BaskFill">В КОРЗИНЕ</div></label></button>
+                                <button id="favButton"><input type="checkbox" id="favCheckButt4" name="favCheckButt"><label for="favCheckButt4" id="favButtonCheck"><div style="display: inline;"><img class="fillstarFav" src="../../icons/star_fill.svg" alt="fill star"><img class="notfillFav" src="../../icons/star.svg" alt="no fill star"></div><div id="FavNofill">В ИЗБРАННОЕ</div><div id="FavFill">В ИЗБРАННОМ</div></label></button>
+                            </div>
+                        </div>
+                        <div style="grid-area: InfoGame5">
+                            <div id="GameName">Phasmophobia</div>
+                            <div id="GameCost"><div class="text_cost">6.99$</div><div class="for_bsk">6.99$</div></div>
+                        </div>
+                    </div>
+                    <div class="game">
+                        <div class="stylePicture" id="Terra_img" style="grid-area: pic6;"><div class="img_for_basket"><img  src="../../img of site/Terraria.jpg"></div>
+                            <div class="blockButtons">
+                                <button id="infoButton"><a href="../own pages/gamePage.html#Terraria"><div style="display: inline;"><img src="../../icons/star.svg"></div> ПОДРОБНЕЕ ОБ</a></button>
+                                <button class="product__btn" id="baskButton"><input type="checkbox" id="BaskCheckButt5" name="BaskCheckButt"><label for="BaskCheckButt5" id="BaskButtonCheck"><div style="display: inline;"><img class="fillshopBask" src="../../icons/shop_fill.svg" alt="fill shop"><img class="notfillBask" src="../../icons/shop.svg" alt="no fill shop"></div><div id="BaskNofill">В КОРЗИНУ</div><div id="BaskFill">В КОРЗИНЕ</div></label></button>
+                                <button id="favButton"><input type="checkbox" id="favCheckButt5" name="favCheckButt"><label for="favCheckButt5" id="favButtonCheck"><div style="display: inline;"><img class="fillstarFav" src="../../icons/star_fill.svg" alt="fill star"><img class="notfillFav" src="../../icons/star.svg" alt="no fill star"></div><div id="FavNofill">В ИЗБРАННОЕ</div><div id="FavFill">В ИЗБРАННОМ</div></label></button>
+                            </div>
+                        </div>
+                        <div style="grid-area: InfoGame6">
+                            <div id="GameName">Terraria</div>
+                            <div id="GameCost"><div class="text_cost">12.45$</div><div class="for_bsk">12.45$</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--      Free       -->
+        <!--Flexbox-->
+        <div id="blockWithFree">
+            <div id="Free" >
+                <!--Grid-->
+                <div id="Name_WatchAll">
+                    <div id="NameOfList">Бесплатно:</div>
+                    <div id="WatchAllGames">Посмотреть все ></div>
+                </div>
+                <div class="gridFree">
+                    <div class="game">
+                        <div class="stylePicture" id="GI_img" style="grid-area: pic1;"><div class="img_for_basket"><img  src="../../img of site/Genshin_Impact.jpg"></div>
+                            <div class="blockButtons">
+                                <button id="infoButton"><a href="../own pages/gamePage.html#GenshinImpact"><div style="display: inline;"><img src="../../icons/star.svg"></div> ПОДРОБНЕЕ ОБ</a></button>
+                                <button class="product__btn" id="baskButton"><input type="checkbox" id="BaskCheckButt6" name="BaskCheckButt"><label for="BaskCheckButt6" id="BaskButtonCheck"><div style="display: inline;"><img class="fillshopBask" src="../../icons/shop_fill.svg" alt="fill shop"><img class="notfillBask" src="../../icons/shop.svg" alt="no fill shop"></div><div id="BaskNofill">В КОРЗИНУ</div><div id="BaskFill">В КОРЗИНЕ</div></label></button>
+                                <button id="favButton"><input type="checkbox" id="favCheckButt6" name="favCheckButt"><label for="favCheckButt6" id="favButtonCheck"><div style="display: inline;"><img class="fillstarFav" src="../../icons/star_fill.svg" alt="fill star"><img class="notfillFav" src="../../icons/star.svg" alt="no fill star"></div><div id="FavNofill">В ИЗБРАННОЕ</div><div id="FavFill">В ИЗБРАННОМ</div></label></button>
+                            </div>
+                        </div>
+                        <div style="grid-area: InfoGame1">
+                            <div id="GameName">Genshin Impact</div>
+                            <div id="GameCost"><div class="text_cost">Бесплатно</div><div class="for_bsk">0</div></div>
+                        </div>
+                    </div>
+                    <div class="game">
+                        <div class="stylePicture" id="D2_img" style="grid-area: pic2;"><div class="img_for_basket"><img  src="../../img of site/Dota_2.jpg"></div>
+                            <div class="blockButtons">
+                                <button id="infoButton"><a href="../own pages/gamePage.html#Dota2"><div style="display: inline;"><img src="../../icons/star.svg"></div> ПОДРОБНЕЕ ОБ</a></button>
+                                <button class="product__btn" id="baskButton"><input type="checkbox" id="BaskCheckButt7" name="BaskCheckButt"><label for="BaskCheckButt7" id="BaskButtonCheck"><div style="display: inline;"><img class="fillshopBask" src="../../icons/shop_fill.svg" alt="fill shop"><img class="notfillBask" src="../../icons/shop.svg" alt="no fill shop"></div><div id="BaskNofill">В КОРЗИНУ</div><div id="BaskFill">В КОРЗИНЕ</div></label></button>
+                                <button id="favButton"><input type="checkbox" id="favCheckButt7" name="favCheckButt"><label for="favCheckButt7" id="favButtonCheck"><div style="display: inline;"><img class="fillstarFav" src="../../icons/star_fill.svg" alt="fill star"><img class="notfillFav" src="../../icons/star.svg" alt="no fill star"></div><div id="FavNofill">В ИЗБРАННОЕ</div><div id="FavFill">В ИЗБРАННОМ</div></label></button>
+                            </div>
+                        </div>
+                        <div style="grid-area: InfoGame2">
+                            <div id="GameName">Dota 2</div>
+                            <div id="GameCost"><div class="text_cost">Бесплатно</div><div class="for_bsk">0</div></div>
+                        </div>
+                    </div>
+                    <div class="game">
+                        <div class="stylePicture" id="AL_img" style="grid-area: pic3;"><div class="img_for_basket"><img  src="../../img of site/Apex_Legends.jpg"></div>
+                            <div class="blockButtons">
+                                <button id="infoButton"><a href="../own pages/gamePage.html#ApexLegends"><div style="display: inline;"><img src="../../icons/star.svg"></div> ПОДРОБНЕЕ ОБ</a></button>
+                                <button class="product__btn" id="baskButton"><input type="checkbox" id="BaskCheckButt8" name="BaskCheckButt"><label for="BaskCheckButt8" id="BaskButtonCheck"><div style="display: inline;"><img class="fillshopBask" src="../../icons/shop_fill.svg" alt="fill shop"><img class="notfillBask" src="../../icons/shop.svg" alt="no fill shop"></div><div id="BaskNofill">В КОРЗИНУ</div><div id="BaskFill">В КОРЗИНЕ</div></label></button>
+                                <button id="favButton"><input type="checkbox" id="favCheckButt8" name="favCheckButt"><label for="favCheckButt8" id="favButtonCheck"><div style="display: inline;"><img class="fillstarFav" src="../../icons/star_fill.svg" alt="fill star"><img class="notfillFav" src="../../icons/star.svg" alt="no fill star"></div><div id="FavNofill">В ИЗБРАННОЕ</div><div id="FavFill">В ИЗБРАННОМ</div></label></button>
+                            </div>
+                        </div>
+                        <div style="grid-area: InfoGame3">
+                            <div id="GameName">Apex Legends</div>
+                            <div id="GameCost"><div class="text_cost">Бесплатно</div><div class="for_bsk">0</div></div>
+                        </div>
+                    </div>
+                    <div class="game">
+                        <div class="stylePicture" id="Rx_img" style="grid-area: pic4;"><div class="img_for_basket"><img  src="../../img of site/Roblox.jpg"></div>
+                            <div class="blockButtons">
+                                <button id="infoButton"><a href="../own pages/gamePage.html#Roblox"><div style="display: inline;"><img src="../../icons/star.svg"></div> ПОДРОБНЕЕ ОБ</a></button>
+                                <button class="product__btn" id="baskButton"><input type="checkbox" id="BaskCheckButt9" name="BaskCheckButt"><label for="BaskCheckButt9" id="BaskButtonCheck"><div style="display: inline;"><img class="fillshopBask" src="../../icons/shop_fill.svg" alt="fill shop"><img class="notfillBask" src="../../icons/shop.svg" alt="no fill shop"></div><div id="BaskNofill">В КОРЗИНУ</div><div id="BaskFill">В КОРЗИНЕ</div></label></button>
+                                <button id="favButton"><input type="checkbox" id="favCheckButt9" name="favCheckButt"><label for="favCheckButt9" id="favButtonCheck"><div style="display: inline;"><img class="fillstarFav" src="../../icons/star_fill.svg" alt="fill star"><img class="notfillFav" src="../../icons/star.svg" alt="no fill star"></div><div id="FavNofill">В ИЗБРАННОЕ</div><div id="FavFill">В ИЗБРАННОМ</div></label></button>
+                            </div>
+                        </div>
+                        <div style="grid-area: InfoGame4">
+                            <div id="GameName">Roblox</div>
+                            <div id="GameCost"><div class="text_cost">Бесплатно</div><div class="for_bsk">0</div></div>
+                        </div>
+                    </div>
+                    <div class="game">
+                        <div class="stylePicture" id="Overwatch_img" style="grid-area: pic5;"><div class="img_for_basket"><img  src="../../img of site/Overwatch.jpg"></div>
+                            <div class="blockButtons">
+                                <button id="infoButton"><a href="../own pages/gamePage.html#Overwatch"><div style="display: inline;"><img src="../../icons/star.svg"></div> ПОДРОБНЕЕ ОБ</a></button>
+                                <button class="product__btn" id="baskButton"><input type="checkbox" id="BaskCheckButt10" name="BaskCheckButt"><label for="BaskCheckButt10" id="BaskButtonCheck"><div style="display: inline;"><img class="fillshopBask" src="../../icons/shop_fill.svg" alt="fill shop"><img class="notfillBask" src="../../icons/shop.svg" alt="no fill shop"></div><div id="BaskNofill">В КОРЗИНУ</div><div id="BaskFill">В КОРЗИНЕ</div></label></button>
+                                <button id="favButton"><input type="checkbox" id="favCheckButt10" name="favCheckButt"><label for="favCheckButt10" id="favButtonCheck"><div style="display: inline;"><img class="fillstarFav" src="../../icons/star_fill.svg" alt="fill star"><img class="notfillFav" src="../../icons/star.svg" alt="no fill star"></div><div id="FavNofill">В ИЗБРАННОЕ</div><div id="FavFill">В ИЗБРАННОМ</div></label></button>
+                            </div>
+                        </div>
+                        <div style="grid-area: InfoGame5">
+                            <div id="GameName">Overwatch</div>
+                            <div id="GameCost"><div class="text_cost">Бесплатно</div><div class="for_bsk">0</div></div>
+                        </div>
+                    </div>
+                    <div class="game">
+                        <div class="stylePicture" id="RocketLeague_img" style="grid-area: pic6;"><div class="img_for_basket"><img  src="../../img of site/Rocket_League.jpg"></div>
+                            <div class="blockButtons">
+                                <button id="infoButton"><a href="../own pages/gamePage.html#RocketLeague"><div style="display: inline;"><img src="../../icons/star.svg"></div> ПОДРОБНЕЕ ОБ</a></button>
+                                <button class="product__btn" id="baskButton"><input type="checkbox" id="BaskCheckButt11" name="BaskCheckButt"><label for="BaskCheckButt11" id="BaskButtonCheck"><div style="display: inline;"><img class="fillshopBask" src="../../icons/shop_fill.svg" alt="fill shop"><img class="notfillBask" src="../../icons/shop.svg" alt="no fill shop"></div><div id="BaskNofill">В КОРЗИНУ</div><div id="BaskFill">В КОРЗИНЕ</div></label></button>
+                                <button id="favButton"><input type="checkbox" id="favCheckButt11" name="favCheckButt"><label for="favCheckButt11" id="favButtonCheck"><div style="display: inline;"><img class="fillstarFav" src="../../icons/star_fill.svg" alt="fill star"><img class="notfillFav" src="../../icons/star.svg" alt="no fill star"></div><div id="FavNofill">В ИЗБРАННОЕ</div><div id="FavFill">В ИЗБРАННОМ</div></label></button>
+                            </div>
+                        </div>
+                        <div style="grid-area: InfoGame6">
+                            <div id="GameName">Rocket League</div>
+                            <div id="GameCost"><div class="text_cost">Бесплатно</div><div class="for_bsk">0</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <div id="blockWithSales">
+            <div id="Sale" >
+                <!--Grid-->
+                <div id="Name_WatchAll">
+                    <div id="NameOfList">Скидки:</div>
+                    <div id="WatchAllGames">Посмотреть все ></div>
+                </div>
+
+                <div class="gridSale">
+                    <div class="game">
+                        <div class="stylePicture" id="REV_img" style="grid-area: pic1;"><div class="img_for_basket"><img  src="../../img of site/Resident_Evil_Village.jpg"></div>
+                            <div class="blockButtons">
+                                <button id="infoButton"><a href="../own pages/gamePage.html#ResidentEvilVilage"><div style="display: inline;"><img src="../../icons/star.svg"></div> ПОДРОБНЕЕ ОБ</a></button>
+                                <button class="product__btn" id="baskButton"><input type="checkbox" id="BaskCheckButt12" name="BaskCheckButt"><label for="BaskCheckButt12" id="BaskButtonCheck"><div style="display: inline;"><img class="fillshopBask" src="../../icons/shop_fill.svg" alt="fill shop"><img class="notfillBask" src="../../icons/shop.svg" alt="no fill shop"></div><div id="BaskNofill">В КОРЗИНУ</div><div id="BaskFill">В КОРЗИНЕ</div></label></button>
+                                <button id="favButton"><input type="checkbox" id="favCheckButt12" name="favCheckButt"><label for="favCheckButt12" id="favButtonCheck"><div style="display: inline;"><img class="fillstarFav" src="../../icons/star_fill.svg" alt="fill star"><img class="notfillFav" src="../../icons/star.svg" alt="no fill star"></div><div id="FavNofill">В ИЗБРАННОЕ</div><div id="FavFill">В ИЗБРАННОМ</div></label></button>
+                            </div>
+                        </div>
+                        <div style="grid-area: InfoGame1">
+                            <div id="GameName">Resident Evil Vilage</div>
+                            <div id="GameCost"><span>49.99$</span><div class="text_cost"> 29.99$</div><div class="for_bsk">29.99$</div></div>
+                        </div>
+                    </div>
+                    <div class="game">
+                        <div class="stylePicture" id="O_img" style="grid-area: pic2;"><div class="img_for_basket"><img  src="../../img of site/Overcooked.jpg"></div>
+                            <div class="blockButtons">
+                                <button id="infoButton"><a href="../own pages/gamePage.html#Overcooked"><div style="display: inline;"><img src="../../icons/star.svg"></div> ПОДРОБНЕЕ ОБ</a></button>
+                                <button class="product__btn" id="baskButton"><input type="checkbox" id="BaskCheckButt13" name="BaskCheckButt"><label for="BaskCheckButt13" id="BaskButtonCheck"><div style="display: inline;"><img class="fillshopBask" src="../../icons/shop_fill.svg" alt="fill shop"><img class="notfillBask" src="../../icons/shop.svg" alt="no fill shop"></div><div id="BaskNofill">В КОРЗИНУ</div><div id="BaskFill">В КОРЗИНЕ</div></label></button>
+                                <button id="favButton"><input type="checkbox" id="favCheckButt13" name="favCheckButt"><label for="favCheckButt13" id="favButtonCheck"><div style="display: inline;"><img class="fillstarFav" src="../../icons/star_fill.svg" alt="fill star"><img class="notfillFav" src="../../icons/star.svg" alt="no fill star"></div><div id="FavNofill">В ИЗБРАННОЕ</div><div id="FavFill">В ИЗБРАННОМ</div></label></button>
+                            </div>
+                        </div>
+                        <div style="grid-area: InfoGame2">
+                            <div id="GameName">Overcooked</div>
+                            <div id="GameCost"><span>5.99$</span><div class="text_cost"> 2.99$</div><div class="for_bsk">2.99$</div></div>
+                        </div>
+                    </div>
+                    <div class="game">
+                        <div class="stylePicture" id="I_img" style="grid-area: pic3;"><div class="img_for_basket"><img  src="../../img of site/Inscryption.jpg"></div>
+                            <div class="blockButtons">
+                                <button id="infoButton"><a href="../own pages/gamePage.html#Inscryption"><div style="display: inline;"><img src="../../icons/star.svg"></div> ПОДРОБНЕЕ ОБ</a></button>
+                                <button class="product__btn" id="baskButton"><input type="checkbox" id="BaskCheckButt14" name="BaskCheckButt"><label for="BaskCheckButt14" id="BaskButtonCheck"><div style="display: inline;"><img class="fillshopBask" src="../../icons/shop_fill.svg" alt="fill shop"><img class="notfillBask" src="../../icons/shop.svg" alt="no fill shop"></div><div id="BaskNofill">В КОРЗИНУ</div><div id="BaskFill">В КОРЗИНЕ</div></label></button>
+                                <button id="favButton"><input type="checkbox" id="favCheckButt14" name="favCheckButt"><label for="favCheckButt14" id="favButtonCheck"><div style="display: inline;"><img class="fillstarFav" src="../../icons/star_fill.svg" alt="fill star"><img class="notfillFav" src="../../icons/star.svg" alt="no fill star"></div><div id="FavNofill">В ИЗБРАННОЕ</div><div id="FavFill">В ИЗБРАННОМ</div></label></button>
+                            </div>
+                        </div>
+                        <div style="grid-area: InfoGame3">
+                            <div id="GameName">Inscryption</div>
+                            <div id="GameCost"><span>9.99$</span><div class="text_cost"> 4.99$</div><div class="for_bsk">4.99$</div></div>
+                        </div>
+                    </div>
+                    <div class="game">
+                        <div class="stylePicture" id="TinyBunny_img" style="grid-area: pic4;"><div class="img_for_basket"><img  src="../../img of site/Tiny_Bunny.jpg"></div>
+                            <div class="blockButtons">
+                                <button id="infoButton"><a href="../own pages/gamePage.html#TinyBunny"><div style="display: inline;"><img src="../../icons/star.svg"></div> ПОДРОБНЕЕ ОБ</a></button>
+                                <button class="product__btn" id="baskButton"><input type="checkbox" id="BaskCheckButt15" name="BaskCheckButt"><label for="BaskCheckButt15" id="BaskButtonCheck"><div style="display: inline;"><img class="fillshopBask" src="../../icons/shop_fill.svg" alt="fill shop"><img class="notfillBask" src="../../icons/shop.svg" alt="no fill shop"></div><div id="BaskNofill">В КОРЗИНУ</div><div id="BaskFill">В КОРЗИНЕ</div></label></button>
+                                <button id="favButton"><input type="checkbox" id="favCheckButt15" name="favCheckButt"><label for="favCheckButt15" id="favButtonCheck"><div style="display: inline;"><img class="fillstarFav" src="../../icons/star_fill.svg" alt="fill star"><img class="notfillFav" src="../../icons/star.svg" alt="no fill star"></div><div id="FavNofill">В ИЗБРАННОЕ</div><div id="FavFill">В ИЗБРАННОМ</div></label></button>
+                            </div>
+                        </div>
+                        <div style="grid-area: InfoGame4">
+                            <div id="GameName">Tiny Bunny</div>
+                            <div id="GameCost"><span>7.99$</span><div class="text_cost"> 4.99$</div><div class="for_bsk">4.99$</div></div>
+                        </div>
+                    </div>
+                    <div class="game">
+                        <div class="stylePicture" id="SlimeRancher_img" style="grid-area: pic5;"><div class="img_for_basket"><img  src="../../img of site/Slime_Rancher_2.jpg"></div>
+                            <div class="blockButtons">
+                                <button id="infoButton"><a href="../own pages/gamePage.html#SlimeRancher2"><div style="display: inline;"><img src="../../icons/star.svg"></div> ПОДРОБНЕЕ ОБ</a></button>
+                                <button class="product__btn" id="baskButton"><input type="checkbox" id="BaskCheckButt16" name="BaskCheckButt"><label for="BaskCheckButt16" id="BaskButtonCheck"><div style="display: inline;"><img class="fillshopBask" src="../../icons/shop_fill.svg" alt="fill shop"><img class="notfillBask" src="../../icons/shop.svg" alt="no fill shop"></div><div id="BaskNofill">В КОРЗИНУ</div><div id="BaskFill">В КОРЗИНЕ</div></label></button>
+                                <button id="favButton"><input type="checkbox" id="favCheckButt16" name="favCheckButt"><label for="favCheckButt16" id="favButtonCheck"><div style="display: inline;"><img class="fillstarFav" src="../../icons/star_fill.svg" alt="fill star"><img class="notfillFav" src="../../icons/star.svg" alt="no fill star"></div><div id="FavNofill">В ИЗБРАННОЕ</div><div id="FavFill">В ИЗБРАННОМ</div></label></button>
+                            </div>
+                        </div>
+                        <div style="grid-area: InfoGame5">
+                            <div id="GameName">Slime Rancher 2</div>
+                            <div id="GameCost"><span>10.99$</span><div class="text_cost"> 7.99$</div><div class="for_bsk">7.99$</div></div>
+                        </div>
+                    </div>
+                    <div class="game">
+                        <div class="stylePicture" id="FNAF_SB_img" style="grid-area: pic6;"><div class="img_for_basket"><img  src="../../img of site/FNAF_SB.jpg"></div>
+                            <div class="blockButtons">
+                                <button id="infoButton"><a href="../own pages/gamePage.html#FnafSecurityBreach"><div style="display: inline;"><img src="../../icons/star.svg"></div> ПОДРОБНЕЕ ОБ</a></button>
+                                <button class="product__btn" id="baskButton"><input type="checkbox" id="BaskCheckButt17" name="BaskCheckButt"><label for="BaskCheckButt17" id="BaskButtonCheck"><div style="display: inline;"><img class="fillshopBask" src="../../icons/shop_fill.svg" alt="fill shop"><img class="notfillBask" src="../../icons/shop.svg" alt="no fill shop"></div><div id="BaskNofill">В КОРЗИНУ</div><div id="BaskFill">В КОРЗИНЕ</div></label></button>
+                                <button id="favButton"><input type="checkbox" id="favCheckButt17" name="favCheckButt"><label for="favCheckButt17" id="favButtonCheck"><div style="display: inline;"><img class="fillstarFav" src="../../icons/star_fill.svg" alt="fill star"><img class="notfillFav" src="../../icons/star.svg" alt="no fill star"></div><div id="FavNofill">В ИЗБРАННОЕ</div><div id="FavFill">В ИЗБРАННОМ</div></label></button>
+                            </div>
+                        </div>
+                        <div style="grid-area: InfoGame6">
+                            <div id="GameName">FNaF Security Breach</div>
+                            <div id="GameCost"><span>15.99$</span><div class="text_cost"> 8.99$</div><div class="for_bsk">8.99$</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <footer id="footer">
+            <div style="grid-area: partner;">Партнерство и<br>способы оплаты</div>
+            <div style="grid-area: community; font-size: 3.4vw; text-align: end;">
+                <div>Наше сообщество:</div>
+                <div>
+                    <img id="vk_logo" src="../../icons/vk.svg">
+                    <img id="twitter_logo" src="../../icons/twitter.svg">
+                    <img id="telegram_logo" src="../../icons/telegram.svg">
+                    <img id="instagram_logo" src="../../icons/instagram.svg">
+                    <img id="github_logo" src="../../icons/github.svg">
+                </div>
+            </div>
+            <div style="grid-area: services;">
+                <div><a href="../FAQ/faq.html">Условия предоставления услуг</a></div>
+                <div><a href="../FAQ/faq.html">Политика конфеденциальности</a></div>
+                <div><a href="../FAQ/faq.html">Пользовательское соглашение</a></div>
+                <div><a href="../FAQ/faq.html">Лицензионное соглашение</a></div>
+            </div>
+            <div style="grid-area: company; text-align: end;">
+                <div>О компании</div>
+                <div>Опубликовать в GFM</div>
+                <div>Поддержка компании</div>
+                <div style="font-size: 3.4vw; padding-top: 5%;">&#174; 2023 Game Favour Market</div>
+            </div>
+        </footer>
+    </div>
+
+
+    <div id='preloader'>
+        <img src="../preloader.gif" alt="preloader">
+    </div>
+
+<script src="../preloader.js"></script>
+<script src="../throttle.js"></script>
+<script src="../scripts.js"></script>
+<script>
+    new Slider(0, { autoPlay: true, fade: true })
+</script>
+<script src="../header.js"></script>
+<script src="../simplebar.js"></script>
+<script src="../cart.js"></script>
+</body>
+</html>

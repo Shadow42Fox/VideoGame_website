@@ -1,0 +1,580 @@
+$neon_aqua: #21FEFE;
+$dark_grey: #1C1D1D;
+$preloader: rgb(14, 17, 31);
+%background{
+    background-color: $dark_grey;
+}
+%main_border{
+    border: 1.5vw solid $neon_aqua;
+    border-radius: 2vw;
+}
+%size_icons{
+    width: 4vw;
+    height: 4vw;
+    margin: 1vw;
+}
+@mixin main_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+%another_border{
+    border: 0.4vw solid $neon_aqua;
+}
+@mixin font-50px{
+    font-size: 3.4vw;
+}
+@mixin font-20px{
+    font-size: 1.5vw;
+}
+@mixin font-30px{
+    font-size: 2vw;
+}
+@mixin font-40px{
+    font-size: 2.7vw;
+}
+@mixin border_radius_20px {
+    border-radius: 1.5vw;
+}
+@mixin border_radius_30px {
+    border-radius: 2vw;
+}
+
+
+body{
+    background-color: #706969;
+}
+#main_border{
+    @extend %main_border;
+}
+
+#blockOfMainInfo{
+    @extend %background;
+    margin-bottom: 0.5vw;
+    @include border_radius_30px();
+    @include main_flex();
+}
+#blockOfMainInfo div{
+    color: white;
+    @include font-50px();
+    font-family: 'Lucida Sans Regular';
+}
+#profile{
+    @include font-40px();
+}
+@media(max-width:480px){
+    #blockOfMainInfo div, #profile{
+        @include font-30px()
+    }
+}
+#logo{
+    width: 19vw;
+}
+
+
+
+#logo2{
+    width: 11vw;
+}
+
+#header{
+    @include font-40px();
+    color: white;
+    background-color: #252626;
+    @include border_radius_20px();
+    @include main_flex();
+    margin-bottom: 1vw;
+}
+
+#header div{
+    font-family: 'Lucida Sans Regular';
+    @include font-40px();
+}
+#mag_logo, #faq_logo, #ref_logo{
+    height: 6vw;
+    width: 6vw;
+}
+#pers_logo{
+    border-radius: 500px;
+    background-color: rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+    width: 9vw;
+    height: 9vw;
+}
+#search_logo{
+    width: 3vw;
+}
+#search{
+    background-color: #313131;
+    border-radius: 2.7vw;
+}
+
+
+ /* Page content */
+ .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 94.7vw;
+    background: #313131;
+    color: #f1f1f1;
+    z-index: 20;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+
+#main_block{
+    @extend %background;
+    padding: 2vw;
+    @include border_radius_30px();
+    margin: 1vw;
+}
+#own_game{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 2vw;
+    justify-content: space-around;
+}
+
+@media(max-width: 1239px){
+    #own_game{
+        display: flex; 
+        margin-bottom: 2vw;
+        justify-content: space-around;
+    }
+}
+@media(max-width: 480px){
+    #own_game{
+        display: flex; 
+        margin-bottom: 2vw;
+        justify-content: space-around;
+        flex-flow: column wrap;
+    }
+}
+
+#blockWithGame{
+    display: grid;
+    grid-template-areas: 
+    "picture picture picture"
+    "name_price name_price name_price"
+    "basket favorite buy";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2.6fr 1fr 1fr;
+    grid-row-gap: 1%;
+    grid-column-gap: 2vw;
+    color: white;
+    text-align: center;
+    background-color: #252626;
+    padding: 1%;
+    @include border_radius_30px();
+}
+@media(max-width: 1239px){
+    #blockWithGame{
+        display: grid;
+        grid-template-areas: 
+        "picture picture picture"
+        "name_price name_price name_price"
+        "basket basket basket"
+        "favorite favorite favorite"
+        "buy buy buy";
+        grid-template-rows: 3fr 1fr 1fr 1fr 1fr;
+        color: white;
+        text-align: center;
+        background-color: #252626;
+        @include border_radius_30px();
+        align-self: center;
+        width: 50vw;
+    }
+}
+#pict1, #pict2, #pict3, #pict4, #video{
+    @include border_radius_20px();
+    height: 25vw;
+}
+@media(max-width: 480px){
+    #blockWithGame{
+        width: 70vw;
+        grid-template-rows: 3fr 1fr 1fr 1fr 1fr;
+    }
+    #pict1, #pict2, #pict3, #pict4, #video{
+        height: 35vw;
+        width: 50vw;
+    }
+}
+
+#basket_logo, #favorite_logo, #buy_logo{
+    width: 5vw;
+}
+
+#informationOfGame{
+    display: grid;
+    grid-template-areas: 
+    "janre"
+    "janreInfo"
+    "different"
+    "differentInfo";
+    grid-template-rows: 1fr 1fr 1fr 3fr;
+    grid-gap: 1.5vw;
+    background-color: #252626;
+    @include border_radius_30px();
+    padding: 2vw;
+    margin: 2vw;
+}
+.inf{
+    color: white;
+    @include font-30px();
+}
+#diff, #janre{
+    color: $neon_aqua;
+    font-size: 3.4vw;
+    @extend %background;
+    @include border_radius_20px();
+    padding: 1vw;
+}
+#block_name_cost{
+    @extend %background;
+    @include border_radius_20px();
+    @extend %another_border;
+    @include main_flex();
+    @include font-50px();
+    padding: 1vw 2vw 1vw 2vw;
+    align-items: center;
+}
+#bask_fav_buy{
+    align-self: center;
+}
+#basket{
+    @include font-30px();
+    align-self: center;
+    padding: 1vw;    
+}
+#fav{
+    @include font-20px();
+    align-self: center;
+    padding: 1.2vw;
+}
+#buy{
+    @include font-40px();
+    background-color: rgba(33, 254, 254, 0.58); 
+    @include border_radius_20px();
+    @extend %another_border;
+    align-self: center;
+    padding: 0.3vw;
+}
+#basket, #fav{
+    background-color: #1C1D1D;
+    @include border_radius_20px();
+    @extend %another_border;
+}
+@media(max-width: 1239px){
+    #basket, #fav, #buy{
+        @include font-40px();
+    }
+}
+@media(max-width: 480px){
+    #basket, #fav, #buy{
+        @include font-50px();
+    }
+}
+
+
+#description{
+    color: white;
+    @include font-30px()
+}
+
+
+
+@media(min-width: 840px){ 
+    #develop_hardw{
+        display: flex;
+        justify-content: space-around;
+
+    }
+}
+@media(max-width: 839px){ 
+    #develop_hardw{
+        flex-flow: column wrap;
+    }
+}
+
+#hardware{
+    @include border_radius_30px();
+    background-color: #252626;
+    padding: 1vw;
+    margin: 2vw;
+}
+#name_hardware{
+    color: $neon_aqua;
+    @include font-50px();
+    padding: 1vw;
+    background-color: #1C1D1D;
+    @include border_radius_20px();
+}
+.info_hardware{
+    color: white;
+    @include font-30px();
+    padding: 1vw;
+}
+
+
+#developers{
+    @include border_radius_30px();
+    background-color: #252626;
+    padding: 1vw;
+    margin: 2vw;
+}
+#name_develop{
+    color: #21FEFE;
+    @include font-50px();
+    padding: 1vw;
+    background-color: #1C1D1D;
+    @include border_radius_20px();
+}
+.info_develop{
+    color: white;
+    @include font-30px();
+    padding: 1vw;
+}
+
+#onTop{
+    display: inline-block;
+    border-radius: 500px;
+    background-color: #252626;
+    img{
+        height: 6vw;
+        width: 6vw;
+        transform: rotate(90deg);
+    }
+    z-index: 20;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 3vw;
+    
+}
+
+
+::-webkit-scrollbar {
+    height: 1vw;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow:  0 0 20px grey; 
+    border-radius: 5vw;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #21FEFE; 
+    border-radius: 5vw;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(33, 254, 254, 0.58); 
+  }
+
+#footer{
+    color: $neon_aqua;
+    background-color: #1C1D1D;
+    @include border_radius_30px();
+    display: grid;
+    grid-template-areas: 
+    "partner community"
+    "services company";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    @include font-40px();
+    padding: 5% 5% 0% 5%;
+}
+#vk_logo, #instagram_logo, #twitter_logo, #telegram_logo, #github_logo, #link_logo{
+    @extend %size_icons;
+}
+
+
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $preloader;
+    z-index: 100;
+}
+#preloader.hide-preloader {
+    animation: hidePreloader 1s;
+}
+
+#preloader.preloader-hidden {
+    display: none;
+}
+
+@keyframes hidePreloader {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+
+
+
+.slider__container {
+    width: 50vw;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider__container .slider-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: all ease 1s;
+  }
+  
+  .slider__control {
+    position: absolute;
+    width: 100%;
+    height: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+  }
+  
+  .slider__control-item {
+    border: solid #fff;
+    border-width: 0 0.5vw 0.5vw 0;
+    padding: 15px;
+  }
+  
+  .slider__control-item:hover {
+    opacity: .7;
+    cursor: pointer;
+  }
+  
+  .next {
+    margin-right: 2vw;
+    transform: rotate(-45deg);
+  }
+  
+  .prev {
+    margin-left: 2vw;
+    transform: rotate(135deg);
+    z-index: 3;
+  }
+  
+  .slider__dots {
+    width: 20vw;
+    display: inline-flex;
+    justify-content: center;
+    padding-top: 25vw;
+  }
+  
+  
+  .slider__dots-item {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 100%;
+    background-color: #fff;
+    margin: 25px 10px;
+  }
+  
+  .slider__dots-item:hover {
+    opacity: .7;
+    cursor: pointer;
+  }
+  
+  .slider__dots-item.active {
+    background-color: gray;
+  }
+  
+  /* fade off */
+  .slider__container .content.fade-off {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    height: 100%;
+    transition: all 2s ease;
+  }
+  
+  .slider__container .slider-item.fade-off {
+    position: static;
+  }
+  @media(max-width:1239px){
+    .slider__dots{
+        padding-top: 25vw;
+    }
+    .slider__dots-item {
+        padding-left: 0.2vw;
+    }
+    .slider__control {
+        position: absolute;
+        width: 100%;
+        height: 25vw;
+        z-index: 2;
+      }
+      
+      .slider__control-item {
+        padding: 5px;
+      }
+  }
+  @media(max-width:619px){
+    .slider__dots{
+        padding-top: 25vw;
+    }
+    .slider__dots-item {
+        padding-left: 1.2vw;
+    }
+    .slider__control {
+        position: absolute;
+        width: 100%;
+        height: 25vw;
+        z-index: 2;
+      }
+      
+      .slider__control-item {
+        padding: 5px;
+      }
+  }
+  @media(max-width:480px){
+    .slider__dots{
+        padding-top: 31vw;
+    }
+    .slider__dots-item {
+        padding-left: 1vw;
+    }
+    .slider__control {
+        position: absolute;
+        width: 100%;
+        height: 35vw;
+        z-index: 2;
+      }
+      
+      .slider__control-item {
+        padding: 5px;
+      }
+  }

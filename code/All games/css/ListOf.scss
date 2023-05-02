@@ -1,0 +1,488 @@
+$neon_aqua: #21FEFE;
+$dark_grey: #1C1D1D;
+$preloader: rgb(14, 17, 31);
+%background{
+    background-color: $dark_grey;
+}
+%main_border{
+    border: 1.5vw solid $neon_aqua;
+    border-radius: 2vw;
+}
+%size_icons{
+    width: 4vw;
+    height: 4vw;
+    margin: 1vw;
+}
+@mixin main_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+%another_border{
+    border: 0.4vw solid $neon_aqua;
+}
+@mixin font-50px{
+    font-size: 3.4vw;
+}
+@mixin font-20px{
+    font-size: 1.5vw;
+}
+@mixin font-30px{
+    font-size: 2vw;
+}
+@mixin font-40px{
+    font-size: 2.7vw;
+}
+@mixin border_radius_20px {
+    border-radius: 1.5vw;
+}
+@mixin border_radius_30px {
+    border-radius: 2vw;
+}
+@mixin border_radius_60px {
+    border-radius: 4vw;
+}
+@mixin setImg {
+    @include border_radius_30px();    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33vw;
+    margin-bottom: 5%;
+    background-position: center;
+    width: 20vw;
+}
+
+
+body{
+    background-color: #706969;
+}
+#main_border{
+    @extend %main_border;
+}
+
+#blockOfMainInfo{
+    @extend %background;
+    margin-bottom: 0.5vw;
+    @include border_radius_30px();
+    @include main_flex();
+}
+#blockOfMainInfo div{
+    color: white;
+    @include font-50px();
+    font-family: 'Lucida Sans Regular';
+}
+#profile{
+    @include font-40px();
+}
+@media(max-width:480px){
+    #blockOfMainInfo div, #profile{
+        @include font-30px()
+    }
+}
+#logo{
+    width: 19vw;
+}
+
+
+
+#logo2{
+    width: 11vw;
+}
+
+#header{
+    @include font-40px();
+    color: white;
+    background-color: #252626;
+    @include border_radius_20px();
+    @include main_flex();
+    margin-bottom: 1vw;
+}
+
+#header div{
+    font-family: 'Lucida Sans Regular';
+    @include font-40px();
+}
+#mag_logo, #faq_logo, #ref_logo{
+    height: 6vw;
+    width: 6vw;
+}
+#pers_logo{
+    border-radius: 500px;
+    background-color: rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+    width: 9vw;
+    height: 9vw;
+}
+#search_logo{
+    width: 3vw;
+}
+#search{
+    background-color: #313131;
+    border-radius: 2.7vw;
+}
+
+
+#main_block{
+    @extend %background;
+    padding: 2vw;
+    @include border_radius_30px();
+    margin: 1vw;
+}
+#own_game{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 2vw;
+    justify-content: space-around;
+}
+
+@media(max-width: 1239px){
+    #own_game{
+        display: flex; 
+        margin-bottom: 2vw;
+        justify-content: space-around;
+    }
+}
+@media(max-width: 480px){
+    #own_game{
+        display: flex; 
+        margin-bottom: 2vw;
+        justify-content: space-around;
+        flex-flow: column wrap;
+    }
+}
+
+
+
+
+
+
+
+
+ /* Page content */
+ .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 94.7vw;
+    background: #313131;
+    color: #f1f1f1;
+    z-index: 20;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+::-webkit-scrollbar {
+    height: 1vw;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow:  0 0 20px grey; 
+    border-radius: 5vw;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #21FEFE; 
+    border-radius: 5vw;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(33, 254, 254, 0.58); 
+  }
+
+  #onTop{
+    display: inline-block;
+    border-radius: 500px;
+    background-color: #252626;
+    img{
+        height: 6vw;
+        width: 6vw;
+        transform: rotate(90deg);
+    }
+    z-index: 20;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 3vw;
+}
+
+
+
+.main_part{
+    background-color: #313131;
+    border: 1vw solid #21FEFE;
+    margin: 2%;
+    @include border_radius_20px();
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+
+.game{
+    border: 0.7vw solid #21FEFE;
+    @include border_radius_30px();
+    background-color: #1C1D1D;
+    color: white;
+    padding: 2vw;
+    text-align: center;
+    display: grid;
+    grid-template-areas: 
+    "pic"
+    "InfoGame";
+    grid-template-columns: 20vw;
+    grid-template-rows: 4fr 1fr;
+    grid-column-gap: 2vw;
+    height: 43vw;
+    width: fit-content;
+    margin: 2%;
+}
+#GameName, #GameCost{
+    @include border_radius_20px();
+    color: #21FEFE;
+    background-color: #313131;
+    padding: 2% 0% 2% 0%;
+    text-align: center
+}
+#GameName{
+    @include font-40px();
+    margin-bottom: 3%; 
+    padding: 2% 0% 2% 0%;
+}
+#GameCost{
+    @include font-30px();
+}
+span{
+    text-decoration: line-through;
+    font-style: italic;
+}
+.for_bsk{
+    display: none;
+}
+.text_cost{
+    display: inline;
+}
+
+
+
+.img_for_basket{
+    display: none;
+}
+.stylePicture{
+    @include setImg();
+}
+#AtH_img{
+    background-image: url("../../../img of site/AtomicHeart.jpg");
+}
+#DL2_img{
+    background-image: url("../../../img of site/DyingLight2.jpg");
+}
+#GoW_img{
+    background-image: url("../../../img of site/God_of_War.jpg");
+}
+
+#GI_img{
+    background-image: url("../../../img of site/Genshin_Impact.jpg");
+}
+#D2_img{
+    background-image: url("../../../img of site/Dota_2.jpg");
+}
+#AL_img{
+    background-image: url("../../../img of site/Apex_Legends.jpg");
+}
+#REV_img{
+    background-image: url("../../../img of site/Resident_Evil_Village.jpg");
+}
+#O_img{
+    background-image: url("../../../img of site/Overcooked.jpg");
+}
+#I_img{
+    background-image: url("../../../img of site/Inscryption.jpg");
+}
+#DBD_img{
+    background-image: url("../../../img of site/Dead_By_Daylight.jpg");
+}
+#Rx_img{
+    background-image: url("../../../img of site/Roblox.jpg");
+}
+#PhPh_img{
+    background-image: url("../../../img of site/Phasmophobia.jpg");
+}
+#Terra_img{
+    background-image: url("../../../img of site/Terraria.jpg");
+}
+#TinyBunny_img{
+    background-image: url("../../../img of site/Tiny_Bunny.jpg");
+}
+#Overwatch_img{
+    background-image: url("../../../img of site/Overwatch.jpg");
+}
+#SlimeRancher_img{
+    background-image: url("../../../img of site/Slime_Rancher_2.jpg");
+}
+#FNAF_SB_img{
+    background-image: url("../../../img of site/FNAF_SB.jpg");
+}
+#RocketLeague_img{
+    background-image: url("../../../img of site/RocketLeague.jpg");
+}
+
+.blockButtons{
+    @include font-30px();
+    overflow: hidden;
+    width: 20vw;
+    height: 33vw;
+    @include border_radius_30px();   
+    background-color: rgba(37, 38, 38, 0.7);
+    #infoButton img,  #baskButton img,  #favButton img{
+        width: 3vw;
+        height: 3vw;
+    }
+    display: none;
+    #infoButton,  #baskButton,  #favButton{
+        width: 18vw;
+        margin-left: 0.5vw;
+        border: 0.5vw double #21FEFE;
+        @include border_radius_30px();
+        padding: 1vw;
+        box-shadow: 0 0 10px #21FEFE;
+        margin-top: 3vw;
+        background-color: rgba(37, 38, 38, 0.95);
+        color: white;
+        font-size: 1.5vw;
+        cursor: pointer;
+    }
+}
+.stylePicture:hover{
+    .blockButtons{
+        display: block;
+    }
+}
+@media(max-width: 523px){
+    .blockButtons, .stylePicture{
+        width: 33vw;
+        height: 45vw;
+    }
+    .game, #GameName, #GameCost{
+        width: 33vw;
+    }
+    .game{
+        height: 53vw;
+    }
+}
+
+#favCheckButt,    #BaskCheckButt,
+#favCheckButt1,   #BaskCheckButt1, 
+#favCheckButt2,   #BaskCheckButt2,
+#favCheckButt3,   #BaskCheckButt3,
+#favCheckButt4,   #BaskCheckButt4,
+#favCheckButt5,   #BaskCheckButt5,
+#favCheckButt6,   #BaskCheckButt6,
+#favCheckButt7,   #BaskCheckButt7,
+#favCheckButt8,   #BaskCheckButt8,
+#favCheckButt9,   #BaskCheckButt9,
+#favCheckButt10,  #BaskCheckButt10,
+#favCheckButt11,  #BaskCheckButt11,
+#favCheckButt12,  #BaskCheckButt12,
+#favCheckButt13,  #BaskCheckButt13,
+#favCheckButt14,  #BaskCheckButt14,
+#favCheckButt15,  #BaskCheckButt15,
+#favCheckButt16,  #BaskCheckButt16,
+#favCheckButt17,  #BaskCheckButt17{
+    display: none;
+}
+.fillstarFav, #FavFill,  .fillshopBask, #BaskFill{
+    display: none;
+}
+.notfillFav, #FavNofill, .notfillBask, #BaskNoFill{
+    display: inline;
+}
+
+#favCheckButt:checked ~#favButtonCheck,     #BaskCheckButt:checked ~#BaskButtonCheck,
+#favCheckButt1:checked ~#favButtonCheck,    #BaskCheckButt1:checked ~#BaskButtonCheck,
+#favCheckButt2:checked ~#favButtonCheck,    #BaskCheckButt2:checked ~#BaskButtonCheck,
+#favCheckButt3:checked ~#favButtonCheck,    #BaskCheckButt3:checked ~#BaskButtonCheck,
+#favCheckButt4:checked ~#favButtonCheck,    #BaskCheckButt4:checked ~#BaskButtonCheck,
+#favCheckButt5:checked ~#favButtonCheck,    #BaskCheckButt5:checked ~#BaskButtonCheck,
+#favCheckButt6:checked ~#favButtonCheck,    #BaskCheckButt6:checked ~#BaskButtonCheck,
+#favCheckButt7:checked ~#favButtonCheck,    #BaskCheckButt7:checked ~#BaskButtonCheck,
+#favCheckButt8:checked ~#favButtonCheck,    #BaskCheckButt8:checked ~#BaskButtonCheck,
+#favCheckButt9:checked ~#favButtonCheck,    #BaskCheckButt9:checked ~#BaskButtonCheck,
+#favCheckButt10:checked ~#favButtonCheck,   #BaskCheckButt10:checked ~#BaskButtonCheck,
+#favCheckButt11:checked ~#favButtonCheck,   #BaskCheckButt11:checked ~#BaskButtonCheck,
+#favCheckButt12:checked ~#favButtonCheck,   #BaskCheckButt12:checked ~#BaskButtonCheck,
+#favCheckButt13:checked ~#favButtonCheck,   #BaskCheckButt13:checked ~#BaskButtonCheck,
+#favCheckButt14:checked ~#favButtonCheck,   #BaskCheckButt14:checked ~#BaskButtonCheck,
+#favCheckButt15:checked ~#favButtonCheck,   #BaskCheckButt15:checked ~#BaskButtonCheck,
+#favCheckButt16:checked ~#favButtonCheck,   #BaskCheckButt16:checked ~#BaskButtonCheck,
+#favCheckButt17:checked ~#favButtonCheck    #BaskCheckButt17:checked ~#BaskButtonCheck
+{
+    .fillstarFav, #FavFill, .fillshopBask, #BaskFill{
+        display: inline;
+    }
+    .notfillFav, #FavNofill, .notfillBask, #BaskNofill{
+        display: none;
+    }
+}
+
+
+#footer{
+    color: $neon_aqua;
+    background-color: #1C1D1D;
+    @include border_radius_30px();
+    display: grid;
+    grid-template-areas: 
+    "partner community"
+    "services company";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    @include font-40px();
+    padding: 5% 5% 0% 5%;
+}
+#vk_logo, #instagram_logo, #twitter_logo, #telegram_logo, #github_logo, #link_logo{
+    @extend %size_icons;
+}
+
+
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $preloader;
+    z-index: 100;
+}
+#preloader.hide-preloader {
+    animation: hidePreloader 1s;
+}
+
+#preloader.preloader-hidden {
+    display: none;
+}
+
+@keyframes hidePreloader {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+

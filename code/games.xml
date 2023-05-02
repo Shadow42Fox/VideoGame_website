@@ -2,7 +2,7 @@
 <game> 
     <info id="GenshinImpact">
         <title>Genshin Impact.GFM - Game Favour Market</title>
-        <video>https://youtu.be/HtiJkMsNtHg</video>
+        <video>https://www.youtube.com/embed/HtiJkMsNtHg</video>
         <nameGame>Genshin Impact</nameGame> 
         <CostGame>Бесплатно</CostGame> 
         <infoJanre>Открытый мир, Приключение, Ролевая, Фэнтези</infoJanre> 
@@ -38,7 +38,7 @@
     </info>
     <info id="GoW:Ragnarec">
         <title>God Of War.GFM - Game Favour Market</title>
-        <video>https://youtu.be/V0aZ-mTNKo8</video>
+        <video>https://www.youtube.com/embed/V0aZ-mTNKo8</video>
         <nameGame>God Of War</nameGame> 
         <CostGame>49.99$</CostGame> 
         <infoJanre>Ролевая, приключения, экшен</infoJanre> 
@@ -74,7 +74,7 @@
     </info>
     <info id="Overcooked">
         <title>Overcooked.GFM - Game Favour Market</title>
-        <video>https://youtu.be/0ZK7veYPEJQ</video>
+        <video>https://www.youtube.com/embed/0ZK7veYPEJQ</video>
         <nameGame>Overcooked</nameGame> 
         <CostGame>2.99$</CostGame> 
         <infoJanre>Инди, казуальные игры, экшен</infoJanre> 
@@ -115,7 +115,7 @@
     </info>
     <info id="DyingLight2">
         <title>Dying Light 2.GFM - Game Favour Market</title>
-        <video>https://youtu.be/2MD4gTitmzw</video>
+        <video>https://www.youtube.com/embed/2MD4gTitmzw</video>
         <nameGame>Dying Light 2</nameGame> 
         <CostGame>49.99$</CostGame> 
         <infoJanre>Ролевые игры, приключенческие игры, экшен</infoJanre> 
@@ -156,7 +156,7 @@
     </info>
     <info id="DeadByDaylight">
         <title>Dead By Daylight.GFM - Game Favour Market</title>
-        <video>https://youtu.be/JGhIXLO3ul8</video>
+        <video>https://www.youtube.com/embed/JGhIXLO3ul8</video>
         <nameGame>Dead By Daylight</nameGame> 
         <CostGame>19.99$</CostGame> 
         <infoJanre>Хоррор, экшен</infoJanre> 
@@ -193,7 +193,7 @@
     </info>
     <info id="AtomicHeart">
         <title>Atomic Heart.GFM - Game Favour Market</title>
-        <video>https://youtu.be/CM1EjL4EKaE</video>
+        <video>https://www.youtube.com/embed/CM1EjL4EKaE</video>
         <nameGame>Atomic Heart</nameGame> 
         <CostGame>49.99$</CostGame> 
         <infoJanre>экшен</infoJanre> 
@@ -229,7 +229,7 @@
     </info>
     <info id="Terraria">
         <title>Terraria.GFM - Game Favour Market</title>
-        <video>https://youtu.be/H77Zfzy4LWw</video>
+        <video>https://www.youtube.com/embed/H77Zfzy4LWw</video>
         <nameGame>Terraria</nameGame> 
         <CostGame>12.45$</CostGame> 
         <infoJanre>Экшен, приключенческие игры, Инди</infoJanre> 
@@ -267,7 +267,7 @@
     </info>
     <info id="Phasmophobia">
         <title>Phasmophobia.GFM - Game Favour Market</title>
-        <video>https://youtu.be/sRa9oeo5KiY</video>
+        <video>https://www.youtube.com/embed/sRa9oeo5KiY</video>
         <nameGame>Phasmophobia</nameGame> 
         <CostGame>Бесплатно</CostGame> 
         <infoJanre>Инди, ранний доступ, экшен</infoJanre> 
@@ -305,7 +305,7 @@
     </info>
     <info id="ApexLegends">
         <title>Apex Legends.GFM - Game Favour Market</title>
-        <video>https://youtu.be/3D4sYCf1VPI</video>
+        <video>https://www.youtube.com/embed/3D4sYCf1VPI</video>
         <nameGame>Apex Legends</nameGame> 
         <CostGame>Бесплатно</CostGame> 
         <infoJanre>Приключченческие игры, бесплатно, экшен</infoJanre> 
@@ -344,7 +344,7 @@
     </info>
     <info id="Dota2">
         <title>Dota 2.GFM - Game Favour Market</title>
-        <video>https://youtu.be/-cSFPIwMEq4</video>
+        <video>https://www.youtube.com/embed/-cSFPIwMEq4</video>
         <nameGame>Dota 2</nameGame> 
         <CostGame>Бесплатно</CostGame> 
         <infoJanre>Экшен, бесплатно, стратегии</infoJanre> 
@@ -378,7 +378,7 @@
     </info>
     <info id="Roblox">
         <title>Roblox.GFM - Game Favour Market</title>
-        <video>https://youtu.be/Wycht1qZGp8</video>
+        <video>https://www.youtube.com/embed/Wycht1qZGp8</video>
         <nameGame>Roblox</nameGame> 
         <CostGame>Бесплатно</CostGame> 
         <infoJanre>Приключченческие игры, бесплатно, экшен</infoJanre> 
@@ -417,7 +417,7 @@
     </info>
     <info id="SlimeRancher2">
         <title>Slime Rancher 2.GFM - Game Favour Market</title>
-        <video>https://youtu.be/qPfm3IClc0s</video>
+        <video>https://www.youtube.com/embed/qPfm3IClc0s</video>
         <nameGame>Slime Rancher 2</nameGame> 
         <CostGame>7.99$</CostGame> 
         <infoJanre>Экшены, Приключенческие игры, Казуальные игры, Инди, Симуляторы, Ранний доступ</infoJanre> 
@@ -453,7 +453,7 @@
     </info>
     <info id="FnafSecurityBreach">
         <title>FNaF Security Breach.GFM - Game Favour Market</title>
-        <video>https://youtu.be/BY9-jWQQHgw</video>
+        <video>https://www.youtube.com/embed/BY9-jWQQHgw</video>
         <nameGame>Five Nights at Freddy's: Security Breach</nameGame> 
         <CostGame>8.99$</CostGame> 
         <infoJanre>Приключенческие игры, Инди, экшен</infoJanre> 
@@ -489,7 +489,7 @@
     </info>
     <info id="Inscryption">
         <title>Inscryption.GFM - Game Favour Market</title>
-        <video>https://youtu.be/uAn7OxLub9Y</video>
+        <video>https://www.youtube.com/embed/uAn7OxLub9Y</video>
         <nameGame>Inscryption</nameGame> 
         <CostGame>4.99$</CostGame> 
         <infoJanre>Приключенческие игры, Инди, Стратегии</infoJanre> 
@@ -525,7 +525,7 @@
     </info>
     <info id="TinyBunny">
         <title>Tiny Bunny.GFM - Game Favour Market</title>
-        <video>https://youtu.be/BGI4nwcjquA</video>
+        <video>https://www.youtube.com/embed/BGI4nwcjquA</video>
         <nameGame>Tiny Bunny</nameGame> 
         <CostGame>4.99$</CostGame> 
         <infoJanre>Приключенческие игры, Инди, Ранний доступ</infoJanre> 
@@ -560,7 +560,7 @@
     </info>
     <info id="ResidentEvilVilage">
         <title>Resident Evil Vilage.GFM - Game Favour Market</title>
-        <video>https://youtu.be/jwPqbleWlns</video>
+        <video>https://www.youtube.com/embed/jwPqbleWlns</video>
         <nameGame>Resident Evil Vilage</nameGame> 
         <CostGame>29.99$</CostGame> 
         <infoJanre>Хоррор, экшен</infoJanre> 
@@ -597,7 +597,7 @@
     </info>
     <info id="Overwatch">
         <title>Overwatch 2.GFM - Game Favour Market</title>
-        <video>https://youtu.be/ivDAI-FXMH4</video>
+        <video>https://www.youtube.com/embed/ivDAI-FXMH4</video>
         <nameGame>Overwatch 2</nameGame> 
         <CostGame>Бесплатно</CostGame> 
         <infoJanre>	Шутер, экшен</infoJanre> 

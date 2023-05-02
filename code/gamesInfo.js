@@ -37,6 +37,17 @@ document.getElementById('pict1').src=game.getElementsByTagName('pict1')[0].textC
 document.getElementById('pict2').src=game.getElementsByTagName('pict2')[0].textContent;
 document.getElementById('pict3').src=game.getElementsByTagName('pict3')[0].textContent;
 document.getElementById('pict4').src=game.getElementsByTagName('pict4')[0].textContent;
+
+let videolink =  game.getElementsByTagName('video')[0].textContent;
+let link = document.getElementById('video');
+link.src=videolink;
+
+(document.getElementById('link')).href = game.getElementsByTagName('link')[0].textContent;
+(document.getElementById('vk')).href = game.getElementsByTagName('vk')[0].textContent;
+(document.getElementById('twitter')).href = game.getElementsByTagName('twitter')[0].textContent;
+(document.getElementById('telegram')).href = game.getElementsByTagName('telegram')[0].textContent;
+(document.getElementById('instagram')).href = game.getElementsByTagName('instagram')[0].textContent;
+(document.getElementById('github')).href = game.getElementsByTagName('github')[0].textContent;
 }
 window.addEventListener('hashchange', Open);
 

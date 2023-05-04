@@ -1,4 +1,4 @@
-const requestURL = "../games.xml"; 
+const requestURL = "https://raw.githubusercontent.com/Shadow42Fox/VideoGame_website/main/code/games.xml"; 
 
 function Open(){
 const xhr = new XMLHttpRequest(); 

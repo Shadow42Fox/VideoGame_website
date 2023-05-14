@@ -24,7 +24,7 @@ const plusFullPrice = (currentPrice) => {
 
 const minusFullPrice = (currentPrice) => {
 	 price -= currentPrice;
-	 if (price < 0){
+	 if (price < 1){
 		price = 0;
 	 }
 };
@@ -37,7 +37,9 @@ const printQuantity = () => {
 const printFullPrice = () => {
 	fullPrice.textContent = `${normalPrice(price)} $`;
 	console.log(fullPrice.textContent);
-	//numb = numb.toFixed(2);
+	console.log(parseFloat(fullPrice.textContent));
+	fullPrice.textContent = (parseFloat(fullPrice.textContent)) +`$`;
+	console.log(fullPrice);
 };
 
 const generateCartProduct = (img, title, price, id) => {
@@ -60,8 +62,8 @@ const deleteProducts = (productParent) => {
 	let Check_input = document.querySelector(`.game[data-id="${id}"]`).querySelector('.product__btn').getElementsByTagName('input').item(0);
 	Check_input.checked = false;
 	
-	console.log(price);
-	let currentPrice = realCost;
+	console.log(document.querySelector(`.game[data-id="${id}"]`).querySelector('.for_bsk').textContent);
+	let currentPrice = parseFloat(document.querySelector(`.game[data-id="${id}"]`).querySelector('.for_bsk').textContent);
 	console.log(productParent);
 	console.log(currentPrice);
 	

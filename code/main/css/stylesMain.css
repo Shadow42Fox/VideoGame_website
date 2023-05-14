@@ -377,12 +377,90 @@ a:hover {
   display: block;
 }
 
-.cart-content__list {
+.cart-content__list, .fav-content__list {
   z-index: 1;
 }
 
 .regist_login {
   z-index: 2;
+}
+
+#NameFavBlock {
+  border-bottom: 0.3vw solid #21FEFE;
+}
+
+#favField {
+  border-bottom: 0.2vw dashed #21FEFE;
+}
+
+#itemsFavorite {
+  overflow-y: auto;
+  height: 18vw;
+}
+
+#itemOfFavorite {
+  display: grid;
+  grid-template-areas: "photo nameOfItem Trash" "photo costOfItem Trash";
+  grid-template-columns: 1fr 4fr 1fr;
+  border-bottom: 0.3vw dashed #313131;
+  border-radius: 0%;
+  height: 12vw;
+}
+
+#itemOfFavorite div {
+  font-size: 2vw;
+}
+
+#pictFavoriteItem {
+  height: 8vw;
+  width: 7vw;
+}
+
+#nameFavItem {
+  border-bottom: 0.2vw solid #21FEFE;
+  border-radius: 0%;
+}
+
+#NameFavoriteBlock {
+  border-bottom: 0.3vw solid #21FEFE;
+}
+
+.fav__quantity {
+  display: inline;
+  font-size: 2px;
+  margin-left: 12vw;
+}
+
+.trash {
+  background-color: #1C1D1D;
+  width: 4vw;
+  height: 4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vw;
+}
+
+.for_fav {
+  display: none;
+}
+
+#favoriteCheckbox {
+  display: none;
+}
+
+#borderFav:hover {
+  border-radius: 2vw;
+  box-shadow: 0 0 1vw white;
+  background-color: rgba(33, 254, 254, 0.58);
+}
+
+#itemsFavorite {
+  display: none;
+}
+
+#favoriteCheckbox:checked ~ #itemsFavorite {
+  display: block;
 }
 
 #blockWithNews {

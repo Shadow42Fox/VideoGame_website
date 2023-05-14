@@ -63,6 +63,10 @@ a{
     text-decoration: none;
     color: white;
 }
+a:hover{
+    text-decoration: underline #21FEFE;
+    color: #21FEFE;
+}
 
 
 #blockOfMainInfo{
@@ -368,6 +372,27 @@ a{
 }
 .text_cost{
     display: inline;
+}
+
+#basketCheckbox{
+    display: none;
+}
+#borderCart:hover{
+    @include border_radius_30px();
+    box-shadow: 0 0 1vw white;
+    background-color: rgba(33, 254, 254, 0.58);
+}
+#itemsBusket{
+    display: none;
+}
+#basketCheckbox:checked ~ #itemsBusket{
+    display: block;
+}
+.cart-content__list{
+    z-index: 1;
+}
+.regist_login{
+    z-index: 2;
 }
 
 
@@ -749,9 +774,13 @@ span{
     @include font-40px();
     padding: 5% 5% 0% 5%;
     a{
-        text-decoration: none;
-        color: rgba(33, 254, 254, 0.58); 
         line-height: 150%;
+        text-decoration: none;
+        color: rgba(33, 254, 254, 0.58);
+    }
+    a:hover{
+        text-decoration: underline #21FEFE;
+        color: #21FEFE;
     }
 }
 #vk_logo, #instagram_logo, #twitter_logo, #telegram_logo, #github_logo, #link_logo{

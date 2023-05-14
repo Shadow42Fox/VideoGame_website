@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>All Games</title>
     <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../simplebar.css">
     <link href="css/ListOf.css" rel="stylesheet" media="all">
 
     <style>
@@ -16,19 +17,76 @@
         <header>
             <div id="blockOfMainInfo" name="top">
                 <div id="logo"><a class="menu_item"><img src="../../creation logo/logo.svg" style="width: 19vw;"></a></div>
-                <div><a class="menu_item"  href="../main/main_page.html" style="text-decoration: none;"><img id="mag_logo" src="../../icons/shop_bag.svg"><div>МАГАЗИН</div></a></div>
-                <div><a class="menu_item"><img id="faq_logo" src="../../icons/question.svg"><div>ЧАВО</div></a></div>
-                <div><a class="menu_item"><img id="ref_logo" src="../../icons/list.svg"><div>СПРАВКА</div></a></div>
-                <div id="profile"><a class="menu_item"><img id="pers_logo"><div>ЛИЧНЫЙ<br>КАБИНЕТ</div></a></div>
+                <div><a class="menu_item"  href="../main/main_page.html"><img id="mag_logo" src="../../icons/shop_bag.svg"><div>МАГАЗИН</div></a></div>
+                <div><a class="menu_item" href="../FAQ/faq.html"><img id="faq_logo" src="../../icons/question.svg"><div>ЧАВО</div></a></div>
+                <div><a class="menu_item" href="../FAQ/faq.html"><img id="ref_logo" src="../../icons/list.svg"><div>СПРАВКА</div></a></div>
+                <div id="profile">
+                    <label class="menu_item" for="menuCheck"><img id="pers_logo" src="../../icons/avatar.svg"><div>ЛИЧНЫЙ<br>КАБИНЕТ</div></label>
+                    <input type="checkbox" id="menuCheck" name="menuCheck">
+                    <div class="profileMenu">
+                        <div id="regButt">
+                            <label id="regLog" for="regLogField"><div style="display: inline;"><img src="../../icons/user.svg"></div>РЕГИСТРАЦИЯ/ВХОД</label>
+                            <input type="checkbox" id="regLogField" name="regLogField">
+                            <div class="regist_login">
+
+
+                                <form>
+                                    <div class="Table">
+                                        <div class="nameTable">Никнейм:</div>
+                                        <input class="buttTable" placeholder="type here" type="text" required>
+                                    </div>
+                                    <div class="Table">
+                                        <div class="nameTable">Email:</div>
+                                        <input class="buttTable" placeholder="must include @ and ." type="email" required>
+                                    </div>
+                                    <div class="Table">
+                                        <div class="nameTable">Пароль:</div>
+                                        <input class="buttTable" type="password" required>
+                                    </div>
+                                    <div id="RegDelBlock">
+                                        <input class="buttRegDel" value="Регистрация" type="submit">
+                                        <input class="buttRegDel" value="Отмена" type="reset">
+                                    </div>
+                                </form>
+
+
+                            </div>
+                        </div>
+                        <div id="baskField" class="cart" tabindex="0">
+                            <input type="checkbox" id="basketCheckbox"><div id="borderCart"><label for="basketCheckbox" id="NameBusketBlock"><div style="display: inline;"><img src="../../icons/shop.svg"></div>КОРЗИНА:<div class="cart__quantity">0</div></label></div>
+                            <div id="itemsBusket" class="cart-content__list" data-simplebar>
+                                <!--
+                                <div class="for_bsk_del">
+                                    <div id="itemOfBusket">
+                                        <img id="pictBusketItem" style="grid-area: photo;" src="../../img of site/Apex_Legends.jpg">
+                                        <div id="nameBuskItem" style="grid-area: nameOfItem;"> Apex Legends</div>
+                                        <div id="costBuskItem" style="grid-area: costOfItem;">Бесплатно</div> 
+                                        <div style="grid-area: Trash;"><img src="../../icons/trash.svg"></div>
+                                    </div>
+                                </div>
+                                -->
+                            </div>
+                            <div id="baskBuyPriceBlock">
+                                <div id="fullPriceBlock">
+                                    <div>Итого:</div>
+                                    <div class="fullprice" id="fullprice">0$</div>
+                                </div>
+                                <div id="baskBuyBlock"><input type="reset" value="Купить" class="buttBaskBuy" onClick="window.location.reload();"></div>
+                            </div>
+                        </div>
+                        <div id="favField" class="favor" tabindex="0">
+                            <div style="display: inline;"><img src="../../icons/star.svg"></div>ИЗБРАННОЕ:</div>
+                    </div>
+                </div>
             </div>
 
-            <div id="header" class="header">
+            <div class="header" id="header">
                 <div id="search"><img id="search_logo" src="../../icons/search.svg"><div style="color: rgba(33, 254, 254, 0.58); font-size: 1.7vw; display: inline;">Искать в магазине</div></div>
-                <div>Главная</div>
-                <div>Новости</div>
-                <div>Скидки</div>
-                <div>Все игры</div>
-                <div id="logo2"><img src="../../creation logo/logo.svg" style="width: 11vw; alt: logotype;"></div>
+                <a href="../main/main_page.html"><div>Главная</div></a>
+                <a href="../main/main_page.html#blockWithNews"><div>Новости</div></a>
+                <a href="../main/main_page.html#blockWithSales"><div>Скидки</div></a>
+                <a href="../All games/AllGames.html"><div>Все игры</div></a>
+                <a href="../main/main_page.html"><div id="logo2"><img src="../../creation logo/logo.svg" style="width: 11vw; alt: logotype;"></div></a>
             </div>
         </header>
 
@@ -275,6 +333,19 @@
                     <div id="GameCost"><span>15.99$</span><div class="text_cost"> 8.99$</div><div class="for_bsk">8.99$</div></div>
                 </div>
             </div>
+            <div class="game">
+                <div class="stylePicture" id="Darkwood_img" style="grid-area: pic;"><div class="img_for_basket"><img  src="../../img of site/Darkwood.jpg"></div>
+                    <div class="blockButtons">
+                        <button id="infoButton"><a href="../404/err404.html"><div style="display: inline;"><img src="../../icons/star.svg"></div> ПОДРОБНЕЕ ОБ</a></button>
+                        <button class="product__btn" id="baskButton"><input type="checkbox" id="BaskCheckButt18" name="BaskCheckButt"><label for="BaskCheckButt18" id="BaskButtonCheck"><div style="display: inline;"><img class="fillshopBask" src="../../icons/shop_fill.svg" alt="fill shop"><img class="notfillBask" src="../../icons/shop.svg" alt="no fill shop"></div><div id="BaskNofill">В КОРЗИНУ</div><div id="BaskFill">В КОРЗИНЕ</div></label></button>
+                        <button id="favButton"><input type="checkbox" id="favCheckButt18" name="favCheckButt"><label for="favCheckButt18" id="favButtonCheck"><div style="display: inline;"><img class="fillstarFav" src="../../icons/star_fill.svg" alt="fill star"><img class="notfillFav" src="../../icons/star.svg" alt="no fill star"></div><div id="FavNofill">В ИЗБРАННОЕ</div><div id="FavFill">В ИЗБРАННОМ</div></label></button>
+                    </div>
+                </div>
+                <div style="grid-area: InfoGame">
+                    <div id="GameName">Darkwood</div>
+                    <div id="GameCost"><div class="text_cost"> 5.99$</div><div class="for_bsk">5.99$</div></div>
+                </div>
+            </div>
         </div>
 
 
@@ -292,11 +363,11 @@
                     <img id="github_logo" src="../../icons/github.svg">
                 </div>
             </div>
-            <div style="grid-area: services; color: rgba(33, 254, 254, 0.58); line-height: 150%;">
-                <div>Условия предоставления услуг</div>
-                <div>Политика конфеденциальности</div>
-                <div>Пользовательское соглашение</div>
-                <div>Лицензионное соглашение</div>
+            <div style="grid-area: services;">
+                <div><a href="../FAQ/faq.html">Условия предоставления услуг</a></div>
+                <div><a href="../FAQ/faq.html">Политика конфеденциальности</a></div>
+                <div><a href="../FAQ/faq.html">Пользовательское соглашение</a></div>
+                <div><a href="../FAQ/faq.html">Лицензионное соглашение</a></div>
             </div>
             <div style="grid-area: company; text-align: end;">
                 <div>О компании</div>
@@ -313,4 +384,6 @@
     </div>
 <script src="../preloader.js"></script>
 <script src="../header.js"></script>
+<script src="../cart.js"></script>
+<script src="../simplebar.js"></script>
 </body>

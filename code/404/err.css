@@ -1,0 +1,53 @@
+.background {
+  background-image: url("../../404/404err.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60vw;
+  height: 40vw;
+  position: fixed;
+  margin-left: 15vw;
+}
+
+@media (max-width: 480px) {
+  .background {
+    margin-top: 15vw;
+    width: 90vw;
+    height: 50vw;
+    margin-left: 0px;
+  }
+}
+body {
+  background-color: black;
+}
+
+button {
+  width: 20vw;
+  height: 10vw;
+  position: absolute;
+  margin-left: 40vw;
+  margin-top: 35vw;
+  border-radius: 2vw;
+  font-size: 2vw;
+  color: #21FEFE;
+  background-color: #080909;
+  border: 1vw double #21FEFE;
+  box-shadow: 0 0 1vw white;
+}
+
+button:hover {
+  box-shadow: 0 0 2vw white;
+  padding: 1.5vw;
+}
+
+button:active {
+  background-color: #21FEFE;
+  border: 1vw double #1C1D1D;
+  box-shadow: 0 0 2vw #21FEFE;
+  color: #080909;
+}
+
+@media (max-width: 480px) {
+  button {
+    margin-top: 75vw;
+  }
+}/*# sourceMappingURL=err.css.map */

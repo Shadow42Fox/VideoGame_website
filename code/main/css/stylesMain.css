@@ -22,6 +22,11 @@ a {
   color: white;
 }
 
+a:hover {
+  text-decoration: underline #21FEFE;
+  color: #21FEFE;
+}
+
 #blockOfMainInfo {
   margin-bottom: 0.5vw;
   border-radius: 2vw;
@@ -352,6 +357,32 @@ a {
 
 .text_cost {
   display: inline;
+}
+
+#basketCheckbox {
+  display: none;
+}
+
+#borderCart:hover {
+  border-radius: 2vw;
+  box-shadow: 0 0 1vw white;
+  background-color: rgba(33, 254, 254, 0.58);
+}
+
+#itemsBusket {
+  display: none;
+}
+
+#basketCheckbox:checked ~ #itemsBusket {
+  display: block;
+}
+
+.cart-content__list {
+  z-index: 1;
+}
+
+.regist_login {
+  z-index: 2;
 }
 
 #blockWithNews {
@@ -866,9 +897,13 @@ span {
   padding: 5% 5% 0% 5%;
 }
 #footer a {
+  line-height: 150%;
   text-decoration: none;
   color: rgba(33, 254, 254, 0.58);
-  line-height: 150%;
+}
+#footer a:hover {
+  text-decoration: underline #21FEFE;
+  color: #21FEFE;
 }
 
 ::-webkit-scrollbar {

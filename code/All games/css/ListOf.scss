@@ -59,6 +59,16 @@ body{
 #main_border{
     @extend %main_border;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline #21FEFE;
+    color: #21FEFE;
+}
+
+
 
 #blockOfMainInfo{
     @extend %background;
@@ -107,8 +117,6 @@ body{
     width: 6vw;
 }
 #pers_logo{
-    border-radius: 500px;
-    background-color: rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
     width: 9vw;
     height: 9vw;
 }
@@ -118,6 +126,274 @@ body{
 #search{
     background-color: #313131;
     border-radius: 2.7vw;
+}
+
+
+/* Page content */
+.content {
+    padding: 16px;
+}
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 94.7vw;
+    background: #313131;
+    color: #f1f1f1;
+    z-index: 20;
+    height: 6.5vw;
+}
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 102px;
+}
+
+.profileMenu{
+    display: none;
+    img{
+        height: 4vw;
+        width: 4vw;
+    }
+    padding-left: 2vw;
+    z-index: 3;
+    position: absolute;
+    left: 43vw;
+    background-color: rgba(37, 38, 38, 0.95);
+    @include border_radius_30px();
+    border: 1vw double #21FEFE;
+    box-shadow: 0 0 1.5vw #21FEFE;
+    div{
+        background-color: #1C1D1D;
+        padding: 1vw;
+        @include border_radius_20px();
+        font-size: 2vw;
+    }
+    #regButt, #regButt div{
+        margin: 2vw 0vw 2vw 0vw;
+    }
+    #baskField, #favField{
+        margin-bottom: 2vw;
+    }
+}
+#menuCheck{
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+}
+#menuCheck:checked ~.profileMenu{
+        display: block;
+}
+
+
+.regist_login{
+    display: none;
+    position: absolute;
+    width: 60vw;
+    right: 10vw;
+    height: 65vw;
+}
+#regLogField{
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    display: none;
+}
+#regLogField:checked ~.regist_login{
+    display: block;
+    background-color: rgba(31, 203, 203, 0.9);
+    border: 1vw double #1C1D1D;
+    box-shadow: 0 0 2vw #21FEFE;
+}
+
+
+.Table{
+    background-color: rgba(37, 38, 38, 0.7);
+    height: 12vw;
+    border: 1vw double #21FEFE;
+    box-shadow: 0 0 2vw #1C1D1D;
+}
+.nameTable{
+    height: 1vw;
+}
+.buttTable{
+    padding-left: 2vw;
+    margin-left: 1vw;
+    width: 40vw;
+    height: 4vw;
+    @include border_radius_30px();
+    background-color: rgba(111, 113, 113, 0.7);
+    color: #21FEFE;
+    font-size: 2vw;
+}
+.buttTable:focus{
+    border: 1vw;
+    background-color: white;
+    color: #080909;
+}
+#RegDelBlock{
+    background: none;
+    margin-left: 25vw;
+}
+.buttRegDel{
+    padding: 1vw;
+    @include border_radius_30px();
+    margin-left: 2vw;
+    font-size: 2vw;
+    color: #21FEFE;
+    background-color: #080909;
+    border: 1vw double #21FEFE;
+    box-shadow: 0 0 2vw #1C1D1D;
+}
+.buttRegDel:hover{
+    box-shadow: 0 0 3vw #1C1D1D;
+    padding: 1.5vw;
+}
+.buttRegDel:active{
+    background-color: #21FEFE;
+    border: 1vw double #1C1D1D;
+    color: #080909;
+}
+::placeholder{
+    color: darkgrey;
+}
+
+
+.simplebar-track.simplebar-vertical {
+	background-color: none;
+	width: 1vw;
+    box-shadow: 0 0 2vw grey;
+    border-radius: 5vw;
+}
+
+.simplebar-content-wrapper {
+	padding-right: 0.5vw;
+}
+
+.simplebar-scrollbar::before {
+	opacity: 1;
+	background-color: #21FEFE;
+	border-radius: 0;
+    margin-right: 1vw;
+}
+
+.simplebar-track.simplebar-vertical .simplebar-scrollbar::before {
+	top: 0;
+	bottom: 0;
+}
+
+.simplebar-scrollbar.simplebar-visible::before {
+	opacity: 1;
+}
+
+#itemsBusket{
+    overflow-y: auto;
+    height: 18vw;
+}
+#itemOfBusket{
+    display: grid;
+    grid-template-areas: 
+    "photo nameOfItem Trash"
+    "photo costOfItem Trash";
+    grid-template-columns: 1fr 4fr 1fr;
+    border-bottom: 0.3vw dashed #313131;
+    border-radius: 0%;
+    height: 12vw;
+}
+#itemOfBusket div{
+    font-size: 2vw;
+}
+#pictBusketItem{
+    height: 8vw;
+    width: 7vw;
+}
+#nameBuskItem{
+    border-bottom: 0.2vw solid #21FEFE;
+    border-radius: 0%;
+}
+#NameBusketBlock{
+    border-bottom: 0.3vw solid #21FEFE;
+}
+#baskBuyPriceBlock{
+    border-top: 0.2vw dashed rgba(33, 254, 254, 0.58);
+    border-radius: 0%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.buttBaskBuy{
+    padding: 0.5vw;
+    @include border_radius_30px();
+    box-shadow: 0 0 0.5vw #21FEFE;
+    background-color: #21FEFE;
+    border: 1vw double #1C1D1D;
+    color: #080909;
+}
+#baskBuyBlock{
+    .buttBaskBuy{
+        font-size: 3vw;
+    }
+    
+}
+#fullPriceBlock div, #fullPriceBlock, #baskBuyBlock{
+    display: inline;
+}
+#fullPriceBlock #fullprice{
+    font-size: 2.5vw;
+    padding-left: 0%;
+}
+.buttBaskBuy:hover{
+    box-shadow: 0 0 1vw #21FEFE;
+}
+.buttBaskBuy:active{
+    color: #21FEFE;
+    background-color: #080909;
+}
+
+.cart__quantity{
+    display: inline;
+    font-size: 2px;
+    margin-left: 12vw;
+}
+
+.trash{
+    background-color: #1C1D1D;
+    width: 4vw;
+    height: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+}
+.for_bsk{
+    display: none;
+}
+.text_cost{
+    display: inline;
+}
+
+#basketCheckbox{
+    display: none;
+}
+#borderCart:hover{
+    @include border_radius_30px();
+    box-shadow: 0 0 1vw white;
+    background-color: rgba(33, 254, 254, 0.58);
+}
+#itemsBusket{
+    display: none;
+}
+#basketCheckbox:checked ~ #itemsBusket{
+    display: block;
+}
+.cart-content__list{
+    z-index: 1;
+}
+.regist_login{
+    z-index: 2;
 }
 
 
@@ -335,6 +611,9 @@ span{
 #RocketLeague_img{
     background-image: url("../../../img of site/RocketLeague.jpg");
 }
+#Darkwood_img{
+    background-image: url("../../../img of site/Darkwood.jpg")
+}
 
 .blockButtons{
     @include font-30px();
@@ -397,7 +676,8 @@ span{
 #favCheckButt14,  #BaskCheckButt14,
 #favCheckButt15,  #BaskCheckButt15,
 #favCheckButt16,  #BaskCheckButt16,
-#favCheckButt17,  #BaskCheckButt17{
+#favCheckButt17,  #BaskCheckButt17,
+#favCheckButt18,  #BaskCheckButt18{
     display: none;
 }
 .fillstarFav, #FavFill,  .fillshopBask, #BaskFill{
@@ -424,7 +704,8 @@ span{
 #favCheckButt14:checked ~#favButtonCheck,   #BaskCheckButt14:checked ~#BaskButtonCheck,
 #favCheckButt15:checked ~#favButtonCheck,   #BaskCheckButt15:checked ~#BaskButtonCheck,
 #favCheckButt16:checked ~#favButtonCheck,   #BaskCheckButt16:checked ~#BaskButtonCheck,
-#favCheckButt17:checked ~#favButtonCheck    #BaskCheckButt17:checked ~#BaskButtonCheck
+#favCheckButt17:checked ~#favButtonCheck,    #BaskCheckButt17:checked ~#BaskButtonCheck,
+#favCheckButt18:checked ~#favButtonCheck,    #BaskCheckButt18:checked ~#BaskButtonCheck
 {
     .fillstarFav, #FavFill, .fillshopBask, #BaskFill{
         display: inline;
@@ -447,6 +728,15 @@ span{
     grid-template-rows: 1fr 2fr;
     @include font-40px();
     padding: 5% 5% 0% 5%;
+    a{
+        line-height: 150%;
+        text-decoration: none;
+        color: rgba(33, 254, 254, 0.58);
+    }
+    a:hover{
+        text-decoration: underline #21FEFE;
+        color: #21FEFE;
+    }
 }
 #vk_logo, #instagram_logo, #twitter_logo, #telegram_logo, #github_logo, #link_logo{
     @extend %size_icons;

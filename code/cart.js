@@ -36,7 +36,8 @@ const printQuantity = () => {
 
 const printFullPrice = () => {
 	fullPrice.textContent = `${normalPrice(price)} $`;
-	console.log(fullPrice.textContent)
+	console.log(fullPrice.textContent);
+	//numb = numb.toFixed(2);
 };
 
 const generateCartProduct = (img, title, price, id) => {
@@ -49,15 +50,17 @@ const generateCartProduct = (img, title, price, id) => {
             <div id="costBuskItem" style="grid-area: costOfItem;">${normalPrice(price)} </div> 
             <button class="trash" style="grid-area: Trash;"><img src="../../icons/trash.svg"></button>
         </div>
-    </div
+    </div>
 	`;
 };
 
 const deleteProducts = (productParent) => {
 	let id = productParent.querySelector('#itemOfBusket').dataset.id;
 	document.querySelector(`.game[data-id="${id}"]`).querySelector('.product__btn').disabled = false;
-	document.querySelector(`.game[data-id="${id}"]`).querySelector('.product__btn').ariaChecked = false;
+	let Check_input = document.querySelector(`.game[data-id="${id}"]`).querySelector('.product__btn').getElementsByTagName('input').item(0);
+	Check_input.checked = false;
 	
+	console.log(price);
 	let currentPrice = realCost;
 	console.log(productParent);
 	console.log(currentPrice);

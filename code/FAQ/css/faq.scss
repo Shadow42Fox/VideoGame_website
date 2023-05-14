@@ -51,7 +51,14 @@ $preloader: rgb(14, 17, 31);
     background-position: center;
 }
 
-
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline #21FEFE;
+    color: #21FEFE;
+}
 
 body{
     background-color: #313131;

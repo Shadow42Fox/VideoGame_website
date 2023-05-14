@@ -47,6 +47,15 @@ body{
 #main_border{
     @extend %main_border;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline #21FEFE;
+    color: #21FEFE;
+}
+
 
 #blockOfMainInfo{
     @extend %background;
@@ -394,6 +403,15 @@ body{
     grid-template-rows: 1fr 2fr;
     @include font-40px();
     padding: 5% 5% 0% 5%;
+    a{
+        line-height: 150%;
+        text-decoration: none;
+        color: rgba(33, 254, 254, 0.58);
+    }
+    a:hover{
+        text-decoration: underline #21FEFE;
+        color: #21FEFE;
+    }
 }
 #vk_logo, #instagram_logo, #twitter_logo, #telegram_logo, #github_logo, #link_logo{
     @extend %size_icons;

@@ -13,7 +13,7 @@
         <header>
             <div id="blockOfMainInfo" name="top">
                 <div id="logo"><a class="menu_item"><img src="../../creation logo/logo.svg" style="width: 19vw;"></a></div>
-                <div><a class="menu_item"  href="../main/main_page.html" style="text-decoration: none;"><img id="mag_logo" src="../../icons/shop_bag.svg"><div>МАГАЗИН</div></a></div>
+                <div><a class="menu_item"  href="../main/main_page.html"><img id="mag_logo" src="../../icons/shop_bag.svg"><div>МАГАЗИН</div></a></div>
                 <div><a class="menu_item" href="../FAQ/faq.html"><img id="faq_logo" src="../../icons/question.svg"><div>ЧАВО</div></a></div>
                 <div><a class="menu_item" href="../FAQ/faq.html"><img id="ref_logo" src="../../icons/list.svg"><div>СПРАВКА</div></a></div>
                 <div id="profile">
@@ -49,7 +49,7 @@
                             </div>
                         </div>
                         <div id="baskField" class="cart" tabindex="0">
-                            <div id="NameBusketBlock" ><div style="display: inline;"><img src="../../icons/shop.svg"></div>КОРЗИНА:<div class="cart__quantity">0</div></div>
+                            <input type="checkbox" id="basketCheckbox"><div id="borderCart"><label for="basketCheckbox" id="NameBusketBlock"><div style="display: inline;"><img src="../../icons/shop.svg"></div>КОРЗИНА:<div class="cart__quantity">0</div></label></div>
                             <div id="itemsBusket" class="cart-content__list" data-simplebar>
                                 <!--
                                 <div class="for_bsk_del">
@@ -79,8 +79,8 @@
             <div class="header" id="header">
                 <div id="search"><img id="search_logo" src="../../icons/search.svg"><div style="color: rgba(33, 254, 254, 0.58); font-size: 1.7vw; display: inline;">Искать в магазине</div></div>
                 <a href="main_page.html"><div>Главная</div></a>
-                <div>Новости</div>
-                <div>Скидки</div>
+                <a href="#blockWithNews"><div>Новости</div></a>
+                <a href="#blockWithSales"><div>Скидки</div></a>
                 <a href="../All games/AllGames.html"><div>Все игры</div></a>
                 <div id="logo2"><a href="main_page.html"><img src="../../creation logo/logo.svg" style="width: 11vw; alt: logotype;"></a></div>
             </div>
@@ -128,7 +128,7 @@
                 <!--Grid-->
                 <div id="Name_WatchAll">
                     <div id="NameOfList">Хит Продаж:</div>
-                    <div id="WatchAllGames">Посмотреть все ></div>
+                    <a href="../All games/AllGames.html"><div id="WatchAllGames">Посмотреть все ></div></a>
                 </div>
                 <div class="gridBest">
                     <div class="game">
@@ -221,7 +221,7 @@
                 <!--Grid-->
                 <div id="Name_WatchAll">
                     <div id="NameOfList">Бесплатно:</div>
-                    <div id="WatchAllGames">Посмотреть все ></div>
+                    <a href="../All games/AllGames.html"><div id="WatchAllGames">Посмотреть все ></div></a>
                 </div>
                 <div class="gridFree">
                     <div class="game">
@@ -313,7 +313,7 @@
                 <!--Grid-->
                 <div id="Name_WatchAll">
                     <div id="NameOfList">Скидки:</div>
-                    <div id="WatchAllGames">Посмотреть все ></div>
+                    <a href="../All games/AllGames.html"><div id="WatchAllGames">Посмотреть все ></div></a>
                 </div>
 
                 <div class="gridSale">

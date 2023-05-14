@@ -9,6 +9,16 @@
   margin: 1vw;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline #21FEFE;
+  color: #21FEFE;
+}
+
 body {
   background-color: #313131;
 }

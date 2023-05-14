@@ -21,6 +21,16 @@ body {
   background-color: #706969;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline #21FEFE;
+  color: #21FEFE;
+}
+
 #blockOfMainInfo {
   margin-bottom: 0.5vw;
   border-radius: 2vw;
@@ -360,6 +370,15 @@ body {
   grid-template-rows: 1fr 2fr;
   font-size: 2.7vw;
   padding: 5% 5% 0% 5%;
+}
+#footer a {
+  line-height: 150%;
+  text-decoration: none;
+  color: rgba(33, 254, 254, 0.58);
+}
+#footer a:hover {
+  text-decoration: underline #21FEFE;
+  color: #21FEFE;
 }
 
 #preloader {

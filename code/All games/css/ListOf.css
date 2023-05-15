@@ -732,6 +732,9 @@ span {
     width: 33vw;
     height: 45vw;
   }
+  #infoButton, #baskButton, #favButton {
+    height: 10vw;
+  }
   .game, #GameName, #GameCost {
     width: 33vw;
   }

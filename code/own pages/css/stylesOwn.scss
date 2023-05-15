@@ -193,12 +193,16 @@ a:hover{
         "favorite favorite favorite"
         "buy buy buy";
         grid-template-rows: 3fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 70vw;
         color: white;
         text-align: center;
         background-color: #252626;
         @include border_radius_30px();
         align-self: center;
         width: 50vw;
+    }
+    .slider__container{
+        width: 70vw
     }
 }
 #pict1, #pict2, #pict3, #pict4, #video{
@@ -210,9 +214,9 @@ a:hover{
         width: 70vw;
         grid-template-rows: 3fr 1fr 1fr 1fr 1fr;
     }
-    #pict1, #pict2, #pict3, #pict4, #video{
+    #pict1, #pict2, #pict3, #pict4, #video, .slider-item{
         height: 35vw;
-        width: 50vw;
+        width: 70vw;
     }
 }
 
@@ -459,6 +463,11 @@ a:hover{
     margin: 0 auto;
     position: relative;
     overflow: hidden;
+  }
+  @media (max-width: 480px){
+    .slider__container{
+        width: 70vw;
+    }
   }
   
   .slider__container .slider-item {

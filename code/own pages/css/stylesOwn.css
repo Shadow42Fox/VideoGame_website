@@ -165,12 +165,16 @@ a:hover {
     display: grid;
     grid-template-areas: "picture picture picture" "name_price name_price name_price" "basket basket basket" "favorite favorite favorite" "buy buy buy";
     grid-template-rows: 3fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 70vw;
     color: white;
     text-align: center;
     background-color: #252626;
     border-radius: 2vw;
     align-self: center;
     width: 50vw;
+  }
+  .slider__container {
+    width: 70vw;
   }
 }
 #pict1, #pict2, #pict3, #pict4, #video {
@@ -183,9 +187,9 @@ a:hover {
     width: 70vw;
     grid-template-rows: 3fr 1fr 1fr 1fr 1fr;
   }
-  #pict1, #pict2, #pict3, #pict4, #video {
+  #pict1, #pict2, #pict3, #pict4, #video, .slider-item {
     height: 35vw;
-    width: 50vw;
+    width: 70vw;
   }
 }
 #basket_logo, #favorite_logo, #buy_logo {
@@ -419,6 +423,11 @@ a:hover {
   overflow: hidden;
 }
 
+@media (max-width: 480px) {
+  .slider__container {
+    width: 70vw;
+  }
+}
 .slider__container .slider-item {
   position: absolute;
   top: 0;
